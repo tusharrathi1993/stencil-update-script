@@ -1,13 +1,17 @@
 #!/bin/sh
 if ! command -v jq &> /dev/null
 then
-    echo "Installing jq"
-    brew install jq
+   echo "........................................"
+   echo "Installing jq"
+   echo "........................................"
+   brew install jq
 fi
 
 if [[ "$1" == "" ]]
 then
+  echo "........................................"
   echo "Please provide client to install... npm | yarn | pnp"
+  echo "........................................"
   exit
 fi
 
@@ -35,7 +39,7 @@ do
     if [[ "${stencilVersion}" != "null" && "${stencilVersion}" != "" ]]
     then
       echo "$i@$stencilVersion"
-      MODULE_STR="${MODULE_TO_BE_INSTALL} ${i}@${stencilVersion}"
+      MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${i}@${stencilVersion}"
     fi
 done
 
@@ -43,20 +47,26 @@ echo $MODULE_TO_BE_INSTALL
 
 if [[ $1 == "npm" ]]
 then
+   echo "........................................"
    echo "Installing using npm client.........."
-   npm install ${MODULE_STR}
+   echo "........................................"
+   npm install ${MODULE_TO_BE_INSTALL}
 fi
 
 if [[ $1 == "yarn" ]]
 then
+   echo "........................................"
    echo "Installing using yarn client.........."
-   yarn add ${MODULE_STR}
+   echo "........................................"
+   yarn add ${MODULE_TO_BE_INSTALL}
 fi
 
 if [[ $1 == "pnp" ]]
 then
+   echo "........................................"
    echo "Installing using yarn-pnp client.........."
-   yarn add ${MODULE_STR}
+   echo "........................................"
+   yarn up ${MODULE_TO_BE_INSTALL}
 fi
 
 rm -rf mtDep.json pk.json update.sh stencil-update-script
