@@ -1,0 +1,22 @@
+{
+  "name": "stencil-update-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@mindtickle/action-bar": "0.1.0-beta.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tusharrathi1993/stencil-update-script.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tusharrathi1993/stencil-update-script/issues"
+  },
+  "homepage": "https://github.com/tusharrathi1993/stencil-update-script#readme"
+}

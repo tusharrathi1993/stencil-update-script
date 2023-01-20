@@ -59,3 +59,4 @@ then
    yarn add ${MODULE_STR}
 fi
 
+rm -rf mtDep.json pk.json update.sh stencil-update-script
