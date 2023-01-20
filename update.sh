@@ -30,7 +30,7 @@ MODULE_TO_BE_INSTALL=""
 
 for i in $MODULE_LIST
 do  
-    echo `npm view @mindtickle/action-link dist-tags --json` > pk.json
+    echo `npm view ${i} dist-tags --json` > pk.json
     stencilVersion=`jq -r '.stencil' pk.json`
     if [[ "${stencilVersion}" != "null" && "${stencilVersion}" != "" ]]
     then
