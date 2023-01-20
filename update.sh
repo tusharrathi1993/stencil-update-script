@@ -69,4 +69,8 @@ then
    yarn up ${MODULE_TO_BE_INSTALL}
 fi
 
+echo "........................................"
+echo "Congratulations !!!! Successfully updated all DL packages to latest stencil version."
+echo "........................................"
+
 rm -rf mtDep.json pk.json update.sh stencil-update-script
