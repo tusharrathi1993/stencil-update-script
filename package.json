@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@mindtickle/action-bar": "0.1.0-beta.14"
+    "@mindtickle/action-bar": "1.1.0-beta.8"
   },
   "repository": {
     "type": "git",
