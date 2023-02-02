@@ -39,7 +39,7 @@ do
     if [[ "${stencilVersion}" != "null" && "${stencilVersion}" != "" ]]
     then
       echo "$i@$stencilVersion"
-      MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${i}@${stencilVersion}"
+      MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${i}@^${stencilVersion}"
     fi
 done
 
