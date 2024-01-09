@@ -32,13 +32,44 @@ MODULE_LIST=$(sed -e 's/"//g' mtDep.json)
 
 MODULE_TO_BE_INSTALL=""
 
+kebab_to_camel() {
+    componentName=$(split_string "$1" "/")
+    local string="$componentName"
+    local IFS='-'
+    read -ra words <<< "$string"
+    printf "%s" "${words[0]}"
+    for ((i = 1; i < ${#words[@]}; i++)); do
+        printf "%s" "$(tr '[:lower:]' '[:upper:]' <<< ${words[i]:0:1})${words[i]:1}"
+    done
+    echo ""
+}
+
+capitalize_first_letter() {
+    local string="$1"
+    local first_letter="$(echo "${string:0:1}" | tr '[:lower:]' '[:upper:]')"
+    echo "$first_letter${string:1}"
+}
+
+split_string() {
+    local string="$1"
+    local delimiter="$2"
+    
+    IFS="$delimiter" read -ra parts <<< "$string"
+    capitalized_string=$(capitalize_first_letter "${parts[1]}")
+    echo $capitalized_string
+}
+
 for i in $MODULE_LIST
 do  
    echo `npm view ${i} dist-tags --json` > pk.json
    stencilVersion=`jq -r '.latest' pk.json`
    if [[ $stencilVersion == *"alpha"* && "${stencilVersion}" != "null" && "${stencilVersion}" != "" ]]; 
    then
+      echo "........................................"
       echo "DL Package with alpha version found for $i@$stencilVersion"
+      componentName=$(kebab_to_camel "$i")
+      echo "Changelog link for this version https://gitlab.com/mindtickle/design-library/-/blob/$i@$stencilVersion/packages/$componentName/CHANGELOG.md"
+      echo "........................................"
       MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${i}@^${stencilVersion}"
    else
       echo "DL Package with alpha version not found for $i."
