@@ -106,4 +106,4 @@ echo "........................................"
 echo "Congratulations !!!! Successfully updated all DL packages to latest stencil version."
 echo "........................................"
 
-# rm -rf mtDep.json pk.json update.sh stencil-update-script
+rm -rf mtDep.json pk.json update.sh stencil-update-script

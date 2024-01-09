@@ -1,2 +1,4 @@
 #!/bin/sh
-node ./stencil-replace-colors/replaceColors.js $1
+node ./stencil-update-script/stencil-replace-colors/replaceColors.js $1
+
+rm -rf replaceColors.sh stencil-update-script
