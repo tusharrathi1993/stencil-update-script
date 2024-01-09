@@ -34,13 +34,15 @@ MODULE_TO_BE_INSTALL=""
 
 for i in $MODULE_LIST
 do  
-    echo `npm view ${i} dist-tags --json` > pk.json
-    stencilVersion=`jq -r '.stencil' pk.json`
-    if [[ "${stencilVersion}" != "null" && "${stencilVersion}" != "" ]]
-    then
-      echo "$i@$stencilVersion"
+   echo `npm view ${i} dist-tags --json` > pk.json
+   stencilVersion=`jq -r '.latest' pk.json`
+   if [[ $stencilVersion == *"alpha"* && "${stencilVersion}" != "null" && "${stencilVersion}" != "" ]]; 
+   then
+      echo "DL Package with alpha version found for $i@$stencilVersion"
       MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${i}@^${stencilVersion}"
-    fi
+   else
+      echo "DL Package with alpha version not found for $i."
+   fi
 done
 
 echo $MODULE_TO_BE_INSTALL
