@@ -14,7 +14,7 @@ const folderPath = args[2];
 
 // Regex for skipping folders while executing this script
 const skipFoldersPattern = new RegExp(
-	'styles|icon|lib|__tests__|__test__|images|__snapshots__|node_modules|dist'
+	'styles|icon|lib|__tests__|__test__|images|__snapshots__|node_modules|dist|.git'
 );
 
 // const includeFoldersPattern = new RegExp('packages/');
