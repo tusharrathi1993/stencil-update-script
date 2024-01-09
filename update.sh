@@ -68,7 +68,7 @@ do
       echo "........................................"
       echo "DL Package with alpha version found for $i@$stencilVersion"
       componentName=$(kebab_to_camel "$i")
-      echo "Changelog link for this version https://gitlab.com/mindtickle/design-library/-/blob/$i@$stencilVersion/packages/$componentName/CHANGELOG.md"
+      echo "Changelog: 'https://gitlab.com/mindtickle/design-library/-/blob/$i@$stencilVersion/packages/$componentName/CHANGELOG.md'"
       echo "........................................"
       MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${i}@^${stencilVersion}"
    else
@@ -76,11 +76,13 @@ do
    fi
 done
 
+echo "........................................"
+echo "These packages will be updated to latest version"
 echo $MODULE_TO_BE_INSTALL
+echo "........................................"
 
 if [[ $1 == "npm" ]]
 then
-   echo "........................................"
    echo "Installing using npm client.........."
    echo "........................................"
    npm install ${MODULE_TO_BE_INSTALL}
@@ -88,7 +90,6 @@ fi
 
 if [[ $1 == "yarn" ]]
 then
-   echo "........................................"
    echo "Installing using yarn client.........."
    echo "........................................"
    yarn add ${MODULE_TO_BE_INSTALL}
@@ -96,7 +97,6 @@ fi
 
 if [[ $1 == "pnp" ]]
 then
-   echo "........................................"
    echo "Installing using yarn-pnp client.........."
    echo "........................................"
    yarn up ${MODULE_TO_BE_INSTALL}
@@ -106,4 +106,4 @@ echo "........................................"
 echo "Congratulations !!!! Successfully updated all DL packages to latest stencil version."
 echo "........................................"
 
-rm -rf mtDep.json pk.json update.sh stencil-update-script
+# rm -rf mtDep.json pk.json update.sh stencil-update-script
