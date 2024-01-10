@@ -87,6 +87,7 @@ print_table_data() {
     local link=$2
     
     printf "| %-50s | %-100s |\n" "$name" "$link"
+    print_horizontal_line
 }
 
 for i in $MODULE_LIST
