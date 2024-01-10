@@ -105,6 +105,7 @@ do
       MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${i}@^${stencilVersion}"
    else
       echo "DL Package with alpha version not found for $i."
+      echo "........................................"
    fi
 done
 
