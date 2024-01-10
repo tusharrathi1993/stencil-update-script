@@ -108,18 +108,6 @@ do
    fi
 done
 
-# Print table headers
-print_table_headers
-
-# Loop through the data and print rows in the table
-for entry in "${changeLogMapping[@]}"; do
-    read -r name link <<< "$entry"
-    print_table_data "$name" "$link"
-done
-
-# Print final horizontal line as a separator
-print_horizontal_line
-
 echo "........................................"
 echo "These packages will be updated to latest version"
 echo $MODULE_TO_BE_INSTALL
@@ -150,4 +138,15 @@ echo "........................................"
 echo "Congratulations !!!! Successfully updated all DL packages to latest stencil version."
 echo "........................................"
 
-rm -rf mtDep.json pk.json update.sh stencil-update-script
+
+# Print table headers
+print_table_headers
+
+# Loop through the data and print rows in the table
+for entry in "${changeLogMapping[@]}"; do
+    read -r name link <<< "$entry"
+    print_table_data "$name" "$link"
+done
+
+# Print final horizontal line as a separator
+print_horizontal_line
