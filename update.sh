@@ -90,13 +90,14 @@ print_table_data() {
     print_horizontal_line
 }
 
+echo "........................................"
 for i in $MODULE_LIST
 do  
    echo `npm view ${i} dist-tags --json` > pk.json
    stencilVersion=`jq -r '.latest' pk.json`
    if [[ $stencilVersion == *"alpha"* && "${stencilVersion}" != "null" && "${stencilVersion}" != "" ]]; 
    then
-      echo "........................................"
+      
       echo "DL Package with alpha version found for $i@$stencilVersion"
       componentName=$(kebab_to_camel "$i")
       changeLogMapping+=("$i@$stencilVersion https://gitlab.com/mindtickle/design-library/-/blob/$i@$stencilVersion/packages/$componentName/CHANGELOG.md")
