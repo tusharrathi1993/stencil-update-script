@@ -1,4 +1,14 @@
 #!/bin/sh
+
+cleanup_before_exit() {
+    # Add your command(s) here
+    echo "Executing command before exit..."
+    # command_to_run_before_exit
+    rm -rf mtDep.json pk.json update.sh stencil-update-script
+}
+
+trap cleanup_before_exit EXIT
+
 if ! command -v jq &> /dev/null
 then
    echo "........................................"
@@ -12,7 +22,8 @@ then
   echo "........................................"
   echo "Please provide client to install... npm | yarn | pnp"
   echo "........................................"
-  exit
+
+  exit 0
 fi
 
 echo "Using ${1} client"
