@@ -31,6 +31,7 @@ echo $MODULE_LIST
 MODULE_LIST=$(sed -e 's/"//g' mtDep.json)
 
 MODULE_TO_BE_INSTALL=""
+changeLogMapping=()
 
 kebab_to_camel() {
     componentName=$(split_string "$1" "/")
@@ -59,6 +60,24 @@ split_string() {
     echo $capitalized_string
 }
 
+print_horizontal_line() {
+    printf "+----------------------+----------------------+----------------------+----------------------+----------------------+----------------------+\n"
+}
+
+# Function to print table headers
+print_table_headers() {
+    printf "| %-50s | %-100s |\n" "Name" "Changelog Link"
+    print_horizontal_line
+}
+
+# Function to print data rows in the table
+print_table_data() {
+    local name=$1
+    local link=$2
+    
+    printf "| %-50s | %-100s |\n" "$name" "$link"
+}
+
 for i in $MODULE_LIST
 do  
    echo `npm view ${i} dist-tags --json` > pk.json
@@ -68,13 +87,25 @@ do
       echo "........................................"
       echo "DL Package with alpha version found for $i@$stencilVersion"
       componentName=$(kebab_to_camel "$i")
-      echo "Changelog: 'https://gitlab.com/mindtickle/design-library/-/blob/$i@$stencilVersion/packages/$componentName/CHANGELOG.md'"
+      changeLogMapping+=("$i@$stencilVersion https://gitlab.com/mindtickle/design-library/-/blob/$i@$stencilVersion/packages/$componentName/CHANGELOG.md")
       echo "........................................"
       MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${i}@^${stencilVersion}"
    else
       echo "DL Package with alpha version not found for $i."
    fi
 done
+
+# Print table headers
+print_table_headers
+
+# Loop through the data and print rows in the table
+for entry in "${changeLogMapping[@]}"; do
+    read -r name link <<< "$entry"
+    print_table_data "$name" "$link"
+done
+
+# Print final horizontal line as a separator
+print_horizontal_line
 
 echo "........................................"
 echo "These packages will be updated to latest version"
