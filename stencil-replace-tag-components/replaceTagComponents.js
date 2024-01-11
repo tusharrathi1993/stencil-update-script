@@ -49,10 +49,6 @@ function findLineWithText(filePath, findText, stringToReplace, newString) {
 		}
 	});
 
-	if (changesDone && !lines[0].includes(importStatement)) {
-		lines.unshift(importStatement);
-	}
-
 	const updatedContent = lines.join('\n');
 
 	fs.writeFileSync(filePath, updatedContent);
