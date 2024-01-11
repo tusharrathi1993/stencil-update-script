@@ -7,15 +7,12 @@ const mappingColors = [
 	`@mindtickle/tag-input-with-suggestions|@mindtickle/tag-input-with-suggestions|@mindtickle/input-pill-with-auto-suggestions`,
 	`@mindtickle/tags-by-category|@mindtickle/tags-by-category|@mindtickle/pills-by-category`,
 	`@mindtickle/token|@mindtickle/token|@mindtickle/badge`,
+	`Tag|import Tag|Pill`,
 	`TagsByCategory|import TagsByCategory|PillsByCategory`,
-	`TagsByCategory|<TagsByCategory#TagsByCategory>|PillsByCategory`,
-	`Tag|import Tag#<Tag#Tag>|Pill`,
 	`Token|import Token|{ BadgeWithStatus }`,
-	`Token|<Token#Token>|BadgeWithStatus`,
 	`TagInput|import TagInput|InputPill`,
-	`TagInput|<TagInput#TagInput>|InputPill`,
 	`TagInputWithSuggestions|import TagInputWithSuggestions|InputPillWithAutoSuggestions`,
-	`TagInputWithSuggestions|<TagInputWithSuggestions#TagInputWithSuggestions>|InputPillWithAutoSuggestions`,
+	`TagInputWithSuggestions|TagInputWithSuggestions|InputPillWithAutoSuggestions`,
 	`ActionTag|ActionTag|ActionPill`,
 	`AdditionTag|AdditionTag|AdditionPill`,
 	`CheckmarkTag|CheckmarkTag|CheckmarkPill`,
@@ -30,7 +27,12 @@ const mappingColors = [
 	`TAG_STATES|TAG_STATES|PILL_STATES`,
 	`TAG_TYPES|TAG_TYPES|PILL_TYPES`,
 	`TagInput|TagInput|InputPill`,
-	`TagInputWithSuggestions|TagInputWithSuggestions|InputPillWithAutoSuggestions`
+	`TagInputWithSuggestions|TagInputWithSuggestions|InputPillWithAutoSuggestions`,
+	`TagsByCategory|TagsByCategory|PillsByCategory`,
+	`Tag|Tag|Pill`,
+	`NormalTag|NormalTag|Pill`,
+	`Token|Token|BadgeWithStatus`,
+	`TagInput|TagInput|InputPill`
 ];
 
 const obj = mappingColors.map((o) => {
