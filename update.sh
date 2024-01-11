@@ -44,6 +44,8 @@ MODULE_LIST=$(sed -e 's/"//g' mtDep.json)
 MODULE_TO_BE_INSTALL=""
 changeLogMapping=()
 
+pacakgesToBeReplaced=("@mindtickle/tag @mindtickle/pill" "@mindtickle/tag-input @mindtickle/input-pill" "@mindtickle/tag-input-with-suggestions @mindtickle/input-pill-with-auto-suggestions" "@mindtickle/tags-by-category @mindtickle/pills-by-category" "@mindtickle/token @mindtickle/badge")
+
 kebab_to_camel() {
     componentName=$(split_string "$1" "/")
     local string="$componentName"
@@ -90,21 +92,45 @@ print_table_data() {
     print_horizontal_line
 }
 
+get_replaced_package_name() {
+    for entry in "${pacakgesToBeReplaced[@]}"; do
+        read -r old new <<< "$entry"
+        if [ "$old" == "$1" ]; then
+            echo $new
+            return
+        fi
+    done
+
+    echo $1
+    return
+}
+
+get_packages_to_be_removed() {
+    local packagesToBeRemoved=""
+    for entry in "${pacakgesToBeReplaced[@]}"; do
+        read -r old new <<< "$entry"
+        packagesToBeRemoved="$packagesToBeRemoved $old"
+    done
+
+    echo $packagesToBeRemoved
+    return
+}
+
 echo "........................................"
 for i in $MODULE_LIST
 do  
-   echo `npm view ${i} dist-tags --json` > pk.json
+   package=$(get_replaced_package_name "$i")
+   echo `npm view ${package} dist-tags --json` > pk.json
    stencilVersion=`jq -r '.latest' pk.json`
    if [[ $stencilVersion == *"alpha"* && "${stencilVersion}" != "null" && "${stencilVersion}" != "" ]]; 
    then
-      
-      echo "DL Package with alpha version found for $i@$stencilVersion"
-      componentName=$(kebab_to_camel "$i")
-      changeLogMapping+=("$i@$stencilVersion https://gitlab.com/mindtickle/design-library/-/blob/$i@$stencilVersion/packages/$componentName/CHANGELOG.md")
+      echo "DL Package with alpha version found for $package@$stencilVersion"
+      componentName=$(kebab_to_camel "$package")
+      changeLogMapping+=("$package@$stencilVersion https://gitlab.com/mindtickle/design-library/-/blob/$package@$stencilVersion/packages/$componentName/CHANGELOG.md")
       echo "........................................"
-      MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${i}@^${stencilVersion}"
+      MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${package}@^${stencilVersion}"
    else
-      echo "DL Package with alpha version not found for $i."
+      echo "DL Package with alpha version not found for $package."
       echo "........................................"
    fi
 done
@@ -113,12 +139,20 @@ echo "........................................"
 echo "These packages will be updated to latest version"
 echo $MODULE_TO_BE_INSTALL
 echo "........................................"
+echo "These packages will be removed"
+MODULE_TO_BE_REMOVED=$(get_packages_to_be_removed)
+echo $MODULE_TO_BE_REMOVED
+echo "........................................"
 
 if [[ $1 == "npm" ]]
 then
    echo "Installing using npm client.........."
    echo "........................................"
    npm install ${MODULE_TO_BE_INSTALL}
+
+   if [ -n "$MODULE_TO_BE_REMOVED" ]; then
+        npm uninstall ${MODULE_TO_BE_REMOVED}
+   fi
 fi
 
 if [[ $1 == "yarn" ]]
@@ -126,6 +160,9 @@ then
    echo "Installing using yarn client.........."
    echo "........................................"
    yarn add ${MODULE_TO_BE_INSTALL}
+   if [ -n "$MODULE_TO_BE_REMOVED" ]; then
+        yarn remove ${MODULE_TO_BE_REMOVED}
+   fi
 fi
 
 if [[ $1 == "pnp" ]]
@@ -133,6 +170,9 @@ then
    echo "Installing using yarn-pnp client.........."
    echo "........................................"
    yarn up ${MODULE_TO_BE_INSTALL}
+   if [ -n "$MODULE_TO_BE_REMOVED" ]; then
+        yarn remove ${MODULE_TO_BE_REMOVED}
+   fi
 fi
 
 echo "........................................"
