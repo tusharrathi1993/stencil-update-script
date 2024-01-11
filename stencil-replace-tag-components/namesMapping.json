@@ -131,27 +131,27 @@
   },
   {
     "componentName": "TagsByCategory",
-    "findText": "<TagsByCategory#/TagsByCategory>",
+    "findText": "\"<TagsByCategory\"#\"/TagsByCategory>\"",
     "replaceName": "PillsByCategory"
   },
   {
     "componentName": "Tag",
-    "findText": "<Tag#/Tag>",
+    "findText": "\"<Tag\"#\"/Tag>\"",
     "replaceName": "Pill"
   },
   {
     "componentName": "NormalTag",
-    "findText": "<NormalTag#/NormalTag>",
+    "findText": "\"<NormalTag\"#\"/NormalTag>\"",
     "replaceName": "Pill"
   },
   {
     "componentName": "Token",
-    "findText": "<Token#/Token>",
+    "findText": "\"<Token\"#\"/Token>\"",
     "replaceName": "BadgeWithStatus"
   },
   {
     "componentName": "TagInput",
-    "findText": "<TagInput#/TagInput>",
+    "findText": "\"<TagInput\"#\"/TagInput>\"",
     "replaceName": "InputPill"
   }
 ]
