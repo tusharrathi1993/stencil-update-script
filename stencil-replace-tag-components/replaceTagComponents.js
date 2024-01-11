@@ -28,7 +28,7 @@ function findLineWithText(filePath, findText, stringToReplace, newString) {
 
 	const lines = data.split('\n');
 	const pattern = findText.split('#').join('|');
-	const findPattern = new RegExp('(' + pattern + ')');
+	const findPattern = new RegExp('^(' + pattern + ')');
 
 	let changesDone = false;
 	lines.forEach((line, index) => {
@@ -36,7 +36,7 @@ function findLineWithText(filePath, findText, stringToReplace, newString) {
 			const lineNumber = index + 1;
 			if (lineNumber > 0 && lineNumber <= lines.length) {
 				const lineToReplace = lines[lineNumber - 1];
-				const regEx = `^.*(${stringToReplace})*`;
+				const regEx = `${stringToReplace}`;
 				const replacedLine = lineToReplace.replace(
 					new RegExp(regEx, 'g'),
 					`${newString}`
