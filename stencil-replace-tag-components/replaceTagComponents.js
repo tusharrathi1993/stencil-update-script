@@ -38,7 +38,7 @@ function findLineWithText(filePath, findText, stringToReplace, newString) {
 				const lineToReplace = lines[lineNumber - 1];
 				const regEx = `${stringToReplace}`;
 				const replacedLine = lineToReplace.replace(
-					new RegExp('\\b' + regEx + '\\b', g),
+					new RegExp('\\b' + regEx + '\\b', 'g'),
 					`${newString}`
 				);
 				lines[lineNumber - 1] = replacedLine;
