@@ -1,0 +1,127 @@
+[
+  {
+    "componentName": "@mindtickle/tag",
+    "findText": "@mindtickle/tag",
+    "replaceName": "@mindtickle/pill"
+  },
+  {
+    "componentName": "@mindtickle/tag-input",
+    "findText": "@mindtickle/tag-input",
+    "replaceName": "@mindtickle/input-pill"
+  },
+  {
+    "componentName": "@mindtickle/tag-input-with-suggestions",
+    "findText": "@mindtickle/tag-input-with-suggestions",
+    "replaceName": "@mindtickle/input-pill-with-auto-suggestions"
+  },
+  {
+    "componentName": "@mindtickle/tags-by-category",
+    "findText": "@mindtickle/tags-by-category",
+    "replaceName": "@mindtickle/pills-by-category"
+  },
+  {
+    "componentName": "@mindtickle/token",
+    "findText": "@mindtickle/token",
+    "replaceName": "@mindtickle/badge"
+  },
+  {
+    "componentName": "TagsByCategory",
+    "findText": "import TagsByCategory",
+    "replaceName": "PillsByCategory"
+  },
+  {
+    "componentName": "Tag",
+    "findText": "import Tag",
+    "replaceName": "Pill"
+  },
+  {
+    "componentName": "Token",
+    "findText": "import Token",
+    "replaceName": "{ BadgeWithStatus }"
+  },
+  {
+    "componentName": "TagInput",
+    "findText": "import TagInput",
+    "replaceName": "InputPill"
+  },
+  {
+    "componentName": "TagInputWithSuggestions",
+    "findText": "import TagInputWithSuggestions",
+    "replaceName": "InputPillWithAutoSuggestions"
+  },
+  {
+    "componentName": "ActionTag",
+    "findText": "ActionTag",
+    "replaceName": "ActionPill"
+  },
+  {
+    "componentName": "AdditionTag",
+    "findText": "AdditionTag",
+    "replaceName": "AdditionPill"
+  },
+  {
+    "componentName": "CheckmarkTag",
+    "findText": "CheckmarkTag",
+    "replaceName": "CheckmarkPill"
+  },
+  {
+    "componentName": "CheckableTag",
+    "findText": "CheckableTag",
+    "replaceName": "CheckablePill"
+  },
+  {
+    "componentName": "DestructiveTag",
+    "findText": "DestructiveTag",
+    "replaceName": "DestructivePill"
+  },
+  {
+    "componentName": "SuggestedTags",
+    "findText": "SuggestedTags",
+    "replaceName": "SuggestedPills"
+  },
+  {
+    "componentName": "CreateTagFromCategory",
+    "findText": "CreateTagFromCategory",
+    "replaceName": "CreatePillFromCategory"
+  },
+  {
+    "componentName": "CREATE_TAG_TYPE",
+    "findText": "CREATE_TAG_TYPE",
+    "replaceName": "CREATE_PILL_TYPE"
+  },
+  {
+    "componentName": "Category",
+    "findText": "Category",
+    "replaceName": "Category"
+  },
+  {
+    "componentName": "CreateTagFromSearch",
+    "findText": "CreateTagFromSearch",
+    "replaceName": "CreatePillFromSearch"
+  },
+  {
+    "componentName": "Token",
+    "findText": "Token",
+    "replaceName": "BadgeWithStatus"
+  },
+  {
+    "componentName": "TAG_STATES",
+    "findText": "TAG_STATES",
+    "replaceName": "PILL_STATES"
+  },
+  {
+    "componentName": "TAG_TYPES",
+    "findText": "TAG_TYPES",
+    "replaceName": "PILL_TYPES"
+  },
+  {
+    "componentName": "TagInput",
+    "findText": "TagInput",
+    "replaceName": "InputPill"
+  },
+  {
+    "componentName": "TagInputWithSuggestions",
+    "findText": "TagInputWithSuggestions",
+    "replaceName": "InputPillWithAutoSuggestions"
+  }
+]
