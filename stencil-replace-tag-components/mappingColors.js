@@ -28,11 +28,11 @@ const mappingColors = [
 	`TAG_TYPES|TAG_TYPES|PILL_TYPES`,
 	`TagInput|TagInput|InputPill`,
 	`TagInputWithSuggestions|TagInputWithSuggestions|InputPillWithAutoSuggestions`,
-	`TagsByCategory|"\<TagsByCategory"#"\/TagsByCategory\>"|PillsByCategory`,
-	`Tag|"\<Tag"#"\/Tag\>"|Pill`,
-	`NormalTag|"\<NormalTag"#"\/NormalTag\>"|Pill`,
-	`Token|"\<Token"#"\/Token\>"|BadgeWithStatus`,
-	`TagInput|"\<TagInput"#"\/TagInput\>"|InputPill`
+	`TagsByCategory|<TagsByCategory#/TagsByCategory>|PillsByCategory`,
+	`Tag|<Tag#/Tag>|Pill`,
+	`NormalTag|<NormalTag#/NormalTag>|Pill`,
+	`Token|<Token#/Token>|BadgeWithStatus`,
+	`TagInput|<TagInput#/TagInput>|InputPill`
 ];
 
 const obj = mappingColors.map((o) => {
