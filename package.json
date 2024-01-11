@@ -1,22 +1,27 @@
 {
-  "name": "stencil-update-script",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@mindtickle/action-bar": "1.1.0-beta.8"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tusharrathi1993/stencil-update-script.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tusharrathi1993/stencil-update-script/issues"
-  },
-  "homepage": "https://github.com/tusharrathi1993/stencil-update-script#readme"
+	"name": "stencil-update-script",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@mindtickle/action-bar": "1.1.0-beta.8",
+		"@mindtickle/tag": "1.0.0-alpha.15",
+		"@mindtickle/tag-input": "1.0.0-alpha.9",
+		"@mindtickle/tag-input-with-suggestions": "1.0.0-alpha.8",
+		"@mindtickle/tags-by-category": "1.0.0-alpha.9",
+		"@mindtickle/token": "1.0.0-alpha.20"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tusharrathi1993/stencil-update-script.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/tusharrathi1993/stencil-update-script/issues"
+	},
+	"homepage": "https://github.com/tusharrathi1993/stencil-update-script#readme"
 }
