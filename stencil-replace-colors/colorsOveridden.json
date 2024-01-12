@@ -1,952 +1,952 @@
 [
-	{
-		"themeName": "AEROSPACE_ORANGE",
-		"findText": "---",
-		"tokenName": "brandTokens.COLOR_BRAND_PRIMARY"
-	},
-	{
-		"themeName": "ALTO",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_DISABLED"
-	},
-	{
-		"themeName": "ALTO",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_DEFAULT"
-	},
-	{
-		"themeName": "ALTO",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_DISABLED"
-	},
-	{
-		"themeName": "ALTO",
-		"findText": "---",
-		"tokenName": "buttonTokens.COLOR_BUTTON_DISABLED"
-	},
-	{
-		"themeName": "ALTO",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_ALTO_SUBTLE"
-	},
-	{
-		"themeName": "ANZAC",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_ASSESSMENT"
-	},
-	{
-		"themeName": "ASSESSMENT",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_ASSESSMENT"
-	},
-	{
-		"themeName": "ATHENSGRAY",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "chartTokens.COLOR_CHART_ALTO"
-	},
-	{
-		"themeName": "BALI_HAI",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_MISSION"
-	},
-	{
-		"themeName": "BILOBA_FLOWER",
-		"findText": "MEDIA_TYPE",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_IMAGE"
-	},
-	{
-		"themeName": "BITTERSWEET",
-		"findText": "color:#LINK_TYPE#BADGE_TYPES",
-		"tokenName": "textTokens.COLOR_TEXT_DANGER"
-	},
-	{
-		"themeName": "BITTERSWEET",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_DANGER_STRONG"
-	},
-	{
-		"themeName": "BITTERSWEET",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_DANGER"
-	},
-	{
-		"themeName": "BITTERSWEET",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_DANGER"
-	},
-	{
-		"themeName": "BITTERSWEET",
-		"findText": "---",
-		"tokenName": "buttonTokens.COLOR_BUTTON_DANGER"
-	},
-	{
-		"themeName": "BITTERSWEET",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_PIPPIN"
-	},
-	{
-		"themeName": "BLACK",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color:#backgroundColor:",
-		"tokenName": "iconTokens.COLOR_ICON_STRONG"
-	},
-	{
-		"themeName": "BROMET",
-		"findText": "MEDIA_TYPE",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_FEEDBACK"
-	},
-	{
-		"themeName": "BUBBLE_GREEN_BORDER",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_GREEN1"
-	},
-	{
-		"themeName": "BUBBLE_GREEN_FILL",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_GREEN2"
-	},
-	{
-		"themeName": "BUBBLE_ORANGE_BORDER",
-		"findText": "---",
-		"tokenName": "brandTokens.COLOR_BRAND_PRIMARY"
-	},
-	{
-		"themeName": "BUBBLE_ORANGE_FILL",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_ORANGE1"
-	},
-	{
-		"themeName": "BUBBLE_RED_BORDER",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_RED1"
-	},
-	{
-		"themeName": "BUBBLE_RED_FILL",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_RED2"
-	},
-	{
-		"themeName": "BURNT_SIENNA",
-		"findText": "MEDIA_TYPE",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_PDF"
-	},
-	{
-		"themeName": "CADILLAC_PINK",
-		"findText": "MEDIA_TYPE",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_SCORM"
-	},
-	{
-		"themeName": "CAROLINA_BLUE",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_INVERSE_SECONDARY"
-	},
-	{
-		"themeName": "CAROLINA_BLUE",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_INVERSE_SECONDARY"
-	},
-	{
-		"themeName": "CHECKLIST",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_CHECKLIST"
-	},
-	{
-		"themeName": "COACHING",
-		"findText": "MEDIA_TYPE",
-		"tokenName": "moduleTokens.COLOR_MODULE_COACHING"
-	},
-	{
-		"themeName": "COACHING",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_QUEST"
-	},
-	{
-		"themeName": "CONGRESS_BLUE",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_NAVBAR1"
-	},
-	{
-		"themeName": "COURSE",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_COURSE"
-	},
-	{
-		"themeName": "DANUBE",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_ACCENT"
-	},
-	{
-		"themeName": "DANUBE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_ACCENT"
-	},
-	{
-		"themeName": "DANUBE",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_ACCENT"
-	},
-	{
-		"themeName": "DANUBE",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_ACCENT"
-	},
-	{
-		"themeName": "DANUBE",
-		"findText": "MEDIA_TYPE",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_LINK"
-	},
-	{
-		"themeName": "DANUBE",
-		"findText": "---",
-		"tokenName": "buttonTokens.COLOR_BUTTON_ACCENT"
-	},
-	{
-		"themeName": "DANUBE",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_HUB"
-	},
-	{
-		"themeName": "DANUBE",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_SERIES"
-	},
-	{
-		"themeName": "DARK_BLUE",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_BLUE2"
-	},
-	{
-		"themeName": "DARK_GREY",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_SECONDARY"
-	},
-	{
-		"themeName": "DARK_ORANGE",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_ORANGE2"
-	},
-	{
-		"themeName": "DARK_OUTER_SPACE",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_SECONDARY"
-	},
-	{
-		"themeName": "DARK_OUTER_SPACE",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_STRONG"
-	},
-	{
-		"themeName": "DARK_OUTER_SPACE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_STRONG"
-	},
-	{
-		"themeName": "DEEP_CHAMPAGNE",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_BRAND"
-	},
-	{
-		"themeName": "DISABLE",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_SECONDARY"
-	},
-	{
-		"themeName": "DISABLE",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_STRONG"
-	},
-	{
-		"themeName": "DISABLE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_DISABLED"
-	},
-	{
-		"themeName": "DISABLE",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_DISABLED"
-	},
-	{
-		"themeName": "EBONY_CLAY",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_NAVBAR2"
-	},
-	{
-		"themeName": "ELSALVA",
-		"findText": "BADGE_TYPES",
-		"tokenName": "chartTokens.COLOR_CHART_SALVA"
-	},
-	{
-		"themeName": "EMERALD",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_COURSE"
-	},
-	{
-		"themeName": "FEIJOA",
-		"findText": "MEDIA_TYPE",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_XLS"
-	},
-	{
-		"themeName": "FOUNTAIN_BLUE",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_COACHING"
-	},
-	{
-		"themeName": "FOUNTAIN_BLUE",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_QUEST"
-	},
-	{
-		"themeName": "FROG",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_SALVA_SUBTLE"
-	},
-	{
-		"themeName": "FROLY",
-		"findText": "MEDIA_TYPE",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_VIDEO"
-	},
-	{
-		"themeName": "GOOGLE",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_RED3"
-	},
-	{
-		"themeName": "GREY",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_STRONG"
-	},
-	{
-		"themeName": "GREY",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_STRONG"
-	},
-	{
-		"themeName": "HUNTER_GREEN",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_HUNTER"
-	},
-	{
-		"themeName": "HUNTER_GREEN",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "chartTokens.COLOR_CHART_HUNTER"
-	},
-	{
-		"themeName": "ICON",
-		"findText": "color:#MEDIA_TYPE",
-		"tokenName": "iconTokens.COLOR_ICON_DEFAULT"
-	},
-	{
-		"themeName": "ICON",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_STRONG"
-	},
-	{
-		"themeName": "ICON",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_STRONG"
-	},
-	{
-		"themeName": "INDIGO",
-		"findText": "color:#LINK_TYPE#BADGE_TYPES",
-		"tokenName": "textTokens.COLOR_TEXT_ACCENT"
-	},
-	{
-		"themeName": "INDIGO",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_ACCENT"
-	},
-	{
-		"themeName": "INDIGO",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_ACCENT"
-	},
-	{
-		"themeName": "INDIGO",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_ACCENT"
-	},
-	{
-		"themeName": "INDIGO",
-		"findText": "---",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_LINK"
-	},
-	{
-		"themeName": "INDIGO",
-		"findText": "---",
-		"tokenName": "buttonTokens.COLOR_BUTTON_ACCENT"
-	},
-	{
-		"themeName": "INDIGO",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_HUB"
-	},
-	{
-		"themeName": "INDIGO",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_SERIES"
-	},
-	{
-		"themeName": "IVORY",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_SECONDARY"
-	},
-	{
-		"themeName": "IVORY",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
-	},
-	{
-		"themeName": "JODHPUR",
-		"findText": "---",
-		"tokenName": "buttonTokens.COLOR_BUTTON_ACCENT_HOVER"
-	},
-	{
-		"themeName": "JORDY_BLUE",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_ILT"
-	},
-	{
-		"themeName": "KOROMIKO",
-		"findText": "color:#BADGE_TYPES",
-		"tokenName": "textTokens.COLOR_TEXT_WARNING"
-	},
-	{
-		"themeName": "KOROMIKO",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
-	},
-	{
-		"themeName": "KOROMIKO",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_WARNING"
-	},
-	{
-		"themeName": "KOROMIKO",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_KOROMIKO"
-	},
-	{
-		"themeName": "LIGHT_BLUE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_SELECTED"
-	},
-	{
-		"themeName": "LIGHT_GREY",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_INVERSE"
-	},
-	{
-		"themeName": "LIGHT_GREY",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_DEFAULT"
-	},
-	{
-		"themeName": "LIGHT_GREY",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
-	},
-	{
-		"themeName": "LIGHT_GREY",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_INVERSE"
-	},
-	{
-		"themeName": "LIGHT_ORANGE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_WARNING"
-	},
-	{
-		"themeName": "LIGHT_ORANGE",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_KOROMIKO_SUBTLE"
-	},
-	{
-		"themeName": "MACRONI_CHEESE",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_WARNING"
-	},
-	{
-		"themeName": "MACRONI_CHEESE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
-	},
-	{
-		"themeName": "MACRONI_CHEESE",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_WARNING"
-	},
-	{
-		"themeName": "MACRONI_CHEESE",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_KOROMIKO"
-	},
-	{
-		"themeName": "MAGGIE",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_WARNING"
-	},
-	{
-		"themeName": "MAGGIE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
-	},
-	{
-		"themeName": "MAGGIE",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_WARNING"
-	},
-	{
-		"themeName": "MAGGIE",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_KOROMIKO"
-	},
-	{
-		"themeName": "MANATEE",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_INVERSE_TERTIARY"
-	},
-	{
-		"themeName": "MANATEE",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_INVERSE_TERTIARY"
-	},
-	{
-		"themeName": "MANATEE",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color:#backgroundColor:",
-		"tokenName": "iconTokens.COLOR_ICON_INVERSE_TERTIARY"
-	},
-	{
-		"themeName": "MINDTICKLE",
-		"findText": "---",
-		"tokenName": "brandTokens.COLOR_BRAND_PRIMARY"
-	},
-	{
-		"themeName": "MISSION",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_MISSION"
-	},
-	{
-		"themeName": "NEPTUNE",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color",
-		"tokenName": "buttonTokens.COLOR_BUTTON_ACCENT_ACTIVE"
-	},
-	{
-		"themeName": "OASIS",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_WARNING"
-	},
-	{
-		"themeName": "OASIS",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_KOROMIKO_SUBTLE"
-	},
-	{
-		"themeName": "OCEAN",
-		"findText": "color:#BADGE_TYPES",
-		"tokenName": "textTokens.COLOR_TEXT_ACCENT"
-	},
-	{
-		"themeName": "OCEAN",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_ACCENT"
-	},
-	{
-		"themeName": "OCEAN",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_ACCENT"
-	},
-	{
-		"themeName": "OCEAN",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_ACCENT"
-	},
-	{
-		"themeName": "OCEAN",
-		"findText": "---",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_LINK"
-	},
-	{
-		"themeName": "OCEAN",
-		"findText": "---",
-		"tokenName": "buttonTokens.COLOR_BUTTON_ACCENT"
-	},
-	{
-		"themeName": "OCEAN",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_HUB"
-	},
-	{
-		"themeName": "OCEAN",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_SERIES"
-	},
-	{
-		"themeName": "OUTER_SPACE",
-		"findText": "color:#LINK_TYPE",
-		"tokenName": "textTokens.COLOR_TEXT_TERTIARY"
-	},
-	{
-		"themeName": "OUTER_SPACE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_STRONG"
-	},
-	{
-		"themeName": "OUTER_SPACE",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_STRONG"
-	},
-	{
-		"themeName": "OUTER_SPACE",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_SECONDARY"
-	},
-	{
-		"themeName": "OXFORD_BLUE",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_NAVBAR4"
-	},
-	{
-		"themeName": "PALE_BLUE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_ACCENT_SELECTED"
-	},
-	{
-		"themeName": "PALE_GREEN",
-		"findText": "---",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_QUESTION"
-	},
-	{
-		"themeName": "PALE_GREEN",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_QUESTION"
-	},
-	{
-		"themeName": "PANTONE_BLUE",
-		"findText": "---",
-		"tokenName": "brandTokens.COLOR_BRAND_SECONDARY"
-	},
-	{
-		"themeName": "PASTEL_GREEN",
-		"findText": "color:#BADGE_TYPES#color =",
-		"tokenName": "textTokens.COLOR_TEXT_SUCCESS"
-	},
-	{
-		"themeName": "PASTEL_GREEN",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_SUCCESS_STRONG"
-	},
-	{
-		"themeName": "PASTEL_GREEN",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_SUCCESS"
-	},
-	{
-		"themeName": "PASTEL_GREEN",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_SUCCESS"
-	},
-	{
-		"themeName": "PASTEL_GREEN",
-		"findText": "---",
-		"tokenName": "buttonTokens.COLOR_BUTTON_SUCCESS"
-	},
-	{
-		"themeName": "PASTEL_GREEN",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_TARA"
-	},
-	{
-		"themeName": "PEACH_CREAM",
-		"findText": "backgroundColor:#borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color:",
-		"tokenName": "chartTokens.COLOR_CHART_SALMON_SUBTLE"
-	},
-	{
-		"themeName": "PEACH_ORANGE",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_WARNING"
-	},
-	{
-		"themeName": "PEACH_ORANGE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
-	},
-	{
-		"themeName": "PEACH_ORANGE",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_WARNING"
-	},
-	{
-		"themeName": "PEACH_ORANGE",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_KOROMIKO"
-	},
-	{
-		"themeName": "PEARL",
-		"findText": "background:#background-color#BADGE_TYPES",
-		"tokenName": "bgTokens.COLOR_BG_DISABLED"
-	},
-	{
-		"themeName": "PEARL",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_SECONDARY"
-	},
-	{
-		"themeName": "PICKLED_BLUEWOOD",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_INVERSE_TERTIARY"
-	},
-	{
-		"themeName": "PICO_IVORY",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_BRAND"
-	},
-	{
-		"themeName": "PIPPIN",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_DANGER"
-	},
-	{
-		"themeName": "PIPPIN",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_PIPPIN_SUBTLE"
-	},
-	{
-		"themeName": "PORCELAIN",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_TERTIARY"
-	},
-	{
-		"themeName": "PORCELAIN",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
-	},
-	{
-		"themeName": "Q_UPDATE",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_QUICKUPDATE"
-	},
-	{
-		"themeName": "QUEST",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_COACHING"
-	},
-	{
-		"themeName": "QUEST",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_QUEST"
-	},
-	{
-		"themeName": "RHINO",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_NAVBAR3"
-	},
-	{
-		"themeName": "RONCHI",
-		"findText": "MEDIA_TYPE",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_AUDIO"
-	},
-	{
-		"themeName": "SALESFORCE",
-		"findText": "---",
-		"tokenName": "deprecatedTokens.COLOR_DEPRECATED_BLUE4"
-	},
-	{
-		"themeName": "SALMON",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "chartTokens.COLOR_CHART_SALMON"
-	},
-	{
-		"themeName": "SANDY_BROWN",
-		"findText": "MEDIA_TYPE",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_PPT"
-	},
-	{
-		"themeName": "SAZERAC",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_WARNING"
-	},
-	{
-		"themeName": "SAZERAC",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_KOROMIKO_SUBTLE"
-	},
-	{
-		"themeName": "SEAGULL",
-		"findText": "MEDIA_TYPE",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_DOC"
-	},
-	{
-		"themeName": "SHARK",
-		"findText": "color:#LINK_TYPE",
-		"tokenName": "textTokens.COLOR_TEXT_DEFAULT"
-	},
-	{
-		"themeName": "SHARK",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_STRONG"
-	},
-	{
-		"themeName": "SHARK",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_INVERSE_SECONDARY"
-	},
-	{
-		"themeName": "SILVER",
-		"findText": "color:#LINK_TYPE#BADGE_TYPES",
-		"tokenName": "textTokens.COLOR_TEXT_SECONDARY"
-	},
-	{
-		"themeName": "SILVER",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_STRONG"
-	},
-	{
-		"themeName": "SILVER",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_DISABLED"
-	},
-	{
-		"themeName": "SILVER",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_DISABLED"
-	},
-	{
-		"themeName": "SKY",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_ACCENT"
-	},
-	{
-		"themeName": "SKY",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_ACCENT"
-	},
-	{
-		"themeName": "SKY",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_ACCENT"
-	},
-	{
-		"themeName": "SKY",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_ACCENT"
-	},
-	{
-		"themeName": "SKY",
-		"findText": "---",
-		"tokenName": "filetypeTokens.COLOR_FILETYPE_LINK"
-	},
-	{
-		"themeName": "SKY",
-		"findText": "---",
-		"tokenName": "buttonTokens.COLOR_BUTTON_ACCENT"
-	},
-	{
-		"themeName": "SKY",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_HUB"
-	},
-	{
-		"themeName": "SKY",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_SERIES"
-	},
-	{
-		"themeName": "SNOWWHITE",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_INVERSE"
-	},
-	{
-		"themeName": "SNOWWHITE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_DEFAULT"
-	},
-	{
-		"themeName": "SNOWWHITE",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
-	},
-	{
-		"themeName": "SNOWWHITE",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_INVERSE"
-	},
-	{
-		"themeName": "SUNGLO",
-		"findText": "bg_color",
-		"tokenName": "moduleTokens.COLOR_MODULE_QUICKUPDATE"
-	},
-	{
-		"themeName": "SUNRISE",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_MAGGIE_SUBTLE"
-	},
-	{
-		"themeName": "TAG_HOVER_TEXT_COLOR",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_ACCENT"
-	},
-	{
-		"themeName": "TARA",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color",
-		"tokenName": "bgTokens.COLOR_BG_SUCCESS"
-	},
-	{
-		"themeName": "TARA",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_TARA_SUBTLE"
-	},
-	{
-		"themeName": "TRANSPARENT",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right::#color:#background:#background-colo",
-		"tokenName": ":,transparent"
-	},
-	{
-		"themeName": "TROPICAL_BLUE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_SELECTED"
-	},
-	{
-		"themeName": "TROPICAL_BLUE",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color",
-		"tokenName": "bgTokens.COLOR_BG_ACCENT_SELECTED"
-	},
-	{
-		"themeName": "WARNING",
-		"findText": "color:#BADGE_TYPES",
-		"tokenName": "textTokens.COLOR_TEXT_WARNING"
-	},
-	{
-		"themeName": "WARNING",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
-	},
-	{
-		"themeName": "WARNING",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_WARNING"
-	},
-	{
-		"themeName": "WARNING",
-		"findText": "---",
-		"tokenName": "chartTokens.COLOR_CHART_KOROMIKO"
-	},
-	{
-		"themeName": "WHITE",
-		"findText": "color:#color =",
-		"tokenName": "textTokens.COLOR_TEXT_INVERSE"
-	},
-	{
-		"themeName": "WHITE",
-		"findText": "background:#background-color:#backgroundColor:",
-		"tokenName": "bgTokens.COLOR_BG_DEFAULT"
-	},
-	{
-		"themeName": "WHITE",
-		"findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
-		"tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
-	},
-	{
-		"themeName": "WHITE",
-		"findText": "---",
-		"tokenName": "iconTokens.COLOR_ICON_INVERSE"
-	}
+  {
+    "themeName": "AEROSPACE_ORANGE",
+    "findText": "---",
+    "tokenName": "brandTokens.COLOR_BRAND_PRIMARY"
+  },
+  {
+    "themeName": "ALTO",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_DEFAULT"
+  },
+  {
+    "themeName": "ALTO",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_DISABLED"
+  },
+  {
+    "themeName": "ALTO",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_DISABLED"
+  },
+  {
+    "themeName": "ALTO",
+    "findText": "---",
+    "tokenName": "buttonTokens.COLOR_BUTTON_DISABLED"
+  },
+  {
+    "themeName": "ALTO",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_ALTO_SUBTLE"
+  },
+  {
+    "themeName": "ANZAC",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_ASSESSMENT"
+  },
+  {
+    "themeName": "ASSESSMENT",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_ASSESSMENT"
+  },
+  {
+    "themeName": "ATHENSGRAY",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "chartTokens.COLOR_CHART_ALTO"
+  },
+  {
+    "themeName": "BALI_HAI",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_MISSION"
+  },
+  {
+    "themeName": "BILOBA_FLOWER",
+    "findText": "MEDIA_TYPE",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_IMAGE"
+  },
+  {
+    "themeName": "BITTERSWEET",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_DANGER_STRONG"
+  },
+  {
+    "themeName": "BITTERSWEET",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_DANGER"
+  },
+  {
+    "themeName": "BITTERSWEET",
+    "findText": "color:#LINK_TYPE#BADGE_TYPES",
+    "tokenName": "textTokens.COLOR_TEXT_DANGER"
+  },
+  {
+    "themeName": "BITTERSWEET",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_DANGER"
+  },
+  {
+    "themeName": "BITTERSWEET",
+    "findText": "---",
+    "tokenName": "buttonTokens.COLOR_BUTTON_DANGER"
+  },
+  {
+    "themeName": "BITTERSWEET",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_PIPPIN"
+  },
+  {
+    "themeName": "BLACK",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color:#backgroundColor:",
+    "tokenName": "iconTokens.COLOR_ICON_STRONG"
+  },
+  {
+    "themeName": "BROMET",
+    "findText": "MEDIA_TYPE",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_FEEDBACK"
+  },
+  {
+    "themeName": "BUBBLE_GREEN_BORDER",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_GREEN1"
+  },
+  {
+    "themeName": "BUBBLE_GREEN_FILL",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_GREEN2"
+  },
+  {
+    "themeName": "BUBBLE_ORANGE_BORDER",
+    "findText": "---",
+    "tokenName": "brandTokens.COLOR_BRAND_PRIMARY"
+  },
+  {
+    "themeName": "BUBBLE_ORANGE_FILL",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_ORANGE1"
+  },
+  {
+    "themeName": "BUBBLE_RED_BORDER",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_RED1"
+  },
+  {
+    "themeName": "BUBBLE_RED_FILL",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_RED2"
+  },
+  {
+    "themeName": "BURNT_SIENNA",
+    "findText": "MEDIA_TYPE",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_PDF"
+  },
+  {
+    "themeName": "CADILLAC_PINK",
+    "findText": "MEDIA_TYPE",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_SCORM"
+  },
+  {
+    "themeName": "CAROLINA_BLUE",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_INVERSE_SECONDARY"
+  },
+  {
+    "themeName": "CAROLINA_BLUE",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_INVERSE_SECONDARY"
+  },
+  {
+    "themeName": "CHECKLIST",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_CHECKLIST"
+  },
+  {
+    "themeName": "COACHING",
+    "findText": "MEDIA_TYPE",
+    "tokenName": "moduleTokens.COLOR_MODULE_COACHING"
+  },
+  {
+    "themeName": "COACHING",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_QUEST"
+  },
+  {
+    "themeName": "CONGRESS_BLUE",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_NAVBAR1"
+  },
+  {
+    "themeName": "COURSE",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_COURSE"
+  },
+  {
+    "themeName": "DANUBE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_ACCENT"
+  },
+  {
+    "themeName": "DANUBE",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
+  },
+  {
+    "themeName": "DANUBE",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_ACCENT"
+  },
+  {
+    "themeName": "DANUBE",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_ACCENT"
+  },
+  {
+    "themeName": "DANUBE",
+    "findText": "MEDIA_TYPE",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_LINK"
+  },
+  {
+    "themeName": "DANUBE",
+    "findText": "---",
+    "tokenName": "buttonTokens.COLOR_BUTTON_ACCENT"
+  },
+  {
+    "themeName": "DANUBE",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_HUB"
+  },
+  {
+    "themeName": "DANUBE",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
+  },
+  {
+    "themeName": "DARK_BLUE",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_BLUE2"
+  },
+  {
+    "themeName": "DARK_GREY",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_SECONDARY"
+  },
+  {
+    "themeName": "DARK_ORANGE",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_ORANGE2"
+  },
+  {
+    "themeName": "DARK_OUTER_SPACE",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_STRONG"
+  },
+  {
+    "themeName": "DARK_OUTER_SPACE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_STRONG"
+  },
+  {
+    "themeName": "DARK_OUTER_SPACE",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_SECONDARY"
+  },
+  {
+    "themeName": "DEEP_CHAMPAGNE",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_BRAND"
+  },
+  {
+    "themeName": "DISABLE",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_STRONG"
+  },
+  {
+    "themeName": "DISABLE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_DISABLED"
+  },
+  {
+    "themeName": "DISABLE",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_SECONDARY"
+  },
+  {
+    "themeName": "DISABLE",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_DISABLED"
+  },
+  {
+    "themeName": "EBONY_CLAY",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_NAVBAR2"
+  },
+  {
+    "themeName": "ELSALVA",
+    "findText": "BADGE_TYPES",
+    "tokenName": "chartTokens.COLOR_CHART_SALVA"
+  },
+  {
+    "themeName": "EMERALD",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_COURSE"
+  },
+  {
+    "themeName": "FEIJOA",
+    "findText": "MEDIA_TYPE",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_XLS"
+  },
+  {
+    "themeName": "FOUNTAIN_BLUE",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_COACHING"
+  },
+  {
+    "themeName": "FOUNTAIN_BLUE",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_QUEST"
+  },
+  {
+    "themeName": "FROG",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_SALVA_SUBTLE"
+  },
+  {
+    "themeName": "FROLY",
+    "findText": "MEDIA_TYPE",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_VIDEO"
+  },
+  {
+    "themeName": "GOOGLE",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_RED3"
+  },
+  {
+    "themeName": "GREY",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_STRONG"
+  },
+  {
+    "themeName": "GREY",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_STRONG"
+  },
+  {
+    "themeName": "HUNTER_GREEN",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_HUNTER"
+  },
+  {
+    "themeName": "HUNTER_GREEN",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "chartTokens.COLOR_CHART_HUNTER"
+  },
+  {
+    "themeName": "ICON",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_STRONG"
+  },
+  {
+    "themeName": "ICON",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_STRONG"
+  },
+  {
+    "themeName": "ICON",
+    "findText": "color:#MEDIA_TYPE",
+    "tokenName": "iconTokens.COLOR_ICON_DEFAULT"
+  },
+  {
+    "themeName": "INDIGO",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_ACCENT"
+  },
+  {
+    "themeName": "INDIGO",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
+  },
+  {
+    "themeName": "INDIGO",
+    "findText": "color:#LINK_TYPE#BADGE_TYPES",
+    "tokenName": "textTokens.COLOR_TEXT_ACCENT"
+  },
+  {
+    "themeName": "INDIGO",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_ACCENT"
+  },
+  {
+    "themeName": "INDIGO",
+    "findText": "---",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_LINK"
+  },
+  {
+    "themeName": "INDIGO",
+    "findText": "---",
+    "tokenName": "buttonTokens.COLOR_BUTTON_ACCENT"
+  },
+  {
+    "themeName": "INDIGO",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_HUB"
+  },
+  {
+    "themeName": "INDIGO",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
+  },
+  {
+    "themeName": "IVORY",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_SECONDARY"
+  },
+  {
+    "themeName": "IVORY",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
+  },
+  {
+    "themeName": "JODHPUR",
+    "findText": "---",
+    "tokenName": "buttonTokens.COLOR_BUTTON_ACCENT_HOVER"
+  },
+  {
+    "themeName": "JORDY_BLUE",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_ILT"
+  },
+  {
+    "themeName": "KOROMIKO",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
+  },
+  {
+    "themeName": "KOROMIKO",
+    "findText": "color:#BADGE_TYPES",
+    "tokenName": "textTokens.COLOR_TEXT_WARNING"
+  },
+  {
+    "themeName": "KOROMIKO",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_WARNING"
+  },
+  {
+    "themeName": "KOROMIKO",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_KOROMIKO"
+  },
+  {
+    "themeName": "LIGHT_BLUE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_SELECTED"
+  },
+  {
+    "themeName": "LIGHT_GREY",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_DEFAULT"
+  },
+  {
+    "themeName": "LIGHT_GREY",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
+  },
+  {
+    "themeName": "LIGHT_GREY",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_INVERSE"
+  },
+  {
+    "themeName": "LIGHT_GREY",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_INVERSE"
+  },
+  {
+    "themeName": "LIGHT_ORANGE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_WARNING"
+  },
+  {
+    "themeName": "LIGHT_ORANGE",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_KOROMIKO_SUBTLE"
+  },
+  {
+    "themeName": "MACRONI_CHEESE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
+  },
+  {
+    "themeName": "MACRONI_CHEESE",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_WARNING"
+  },
+  {
+    "themeName": "MACRONI_CHEESE",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_WARNING"
+  },
+  {
+    "themeName": "MACRONI_CHEESE",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_KOROMIKO"
+  },
+  {
+    "themeName": "MAGGIE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
+  },
+  {
+    "themeName": "MAGGIE",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_WARNING"
+  },
+  {
+    "themeName": "MAGGIE",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_WARNING"
+  },
+  {
+    "themeName": "MAGGIE",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_KOROMIKO"
+  },
+  {
+    "themeName": "MANATEE",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_INVERSE_TERTIARY"
+  },
+  {
+    "themeName": "MANATEE",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_INVERSE_TERTIARY"
+  },
+  {
+    "themeName": "MANATEE",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color:#backgroundColor:",
+    "tokenName": "iconTokens.COLOR_ICON_INVERSE_TERTIARY"
+  },
+  {
+    "themeName": "MINDTICKLE",
+    "findText": "---",
+    "tokenName": "brandTokens.COLOR_BRAND_PRIMARY"
+  },
+  {
+    "themeName": "MISSION",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_MISSION"
+  },
+  {
+    "themeName": "NEPTUNE",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color",
+    "tokenName": "buttonTokens.COLOR_BUTTON_ACCENT_ACTIVE"
+  },
+  {
+    "themeName": "OASIS",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_WARNING"
+  },
+  {
+    "themeName": "OASIS",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_KOROMIKO_SUBTLE"
+  },
+  {
+    "themeName": "OCEAN",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_ACCENT"
+  },
+  {
+    "themeName": "OCEAN",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
+  },
+  {
+    "themeName": "OCEAN",
+    "findText": "color:#BADGE_TYPES",
+    "tokenName": "textTokens.COLOR_TEXT_ACCENT"
+  },
+  {
+    "themeName": "OCEAN",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_ACCENT"
+  },
+  {
+    "themeName": "OCEAN",
+    "findText": "---",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_LINK"
+  },
+  {
+    "themeName": "OCEAN",
+    "findText": "---",
+    "tokenName": "buttonTokens.COLOR_BUTTON_ACCENT"
+  },
+  {
+    "themeName": "OCEAN",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_HUB"
+  },
+  {
+    "themeName": "OCEAN",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
+  },
+  {
+    "themeName": "OUTER_SPACE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_STRONG"
+  },
+  {
+    "themeName": "OUTER_SPACE",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_STRONG"
+  },
+  {
+    "themeName": "OUTER_SPACE",
+    "findText": "color:#LINK_TYPE",
+    "tokenName": "textTokens.COLOR_TEXT_TERTIARY"
+  },
+  {
+    "themeName": "OUTER_SPACE",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_SECONDARY"
+  },
+  {
+    "themeName": "OXFORD_BLUE",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_NAVBAR4"
+  },
+  {
+    "themeName": "PALE_BLUE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_ACCENT_SELECTED"
+  },
+  {
+    "themeName": "PALE_GREEN",
+    "findText": "---",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_QUESTION"
+  },
+  {
+    "themeName": "PALE_GREEN",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_QUESTION"
+  },
+  {
+    "themeName": "PANTONE_BLUE",
+    "findText": "---",
+    "tokenName": "brandTokens.COLOR_BRAND_SECONDARY"
+  },
+  {
+    "themeName": "PASTEL_GREEN",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_SUCCESS_STRONG"
+  },
+  {
+    "themeName": "PASTEL_GREEN",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_SUCCESS"
+  },
+  {
+    "themeName": "PASTEL_GREEN",
+    "findText": "color:#BADGE_TYPES#color =",
+    "tokenName": "textTokens.COLOR_TEXT_SUCCESS"
+  },
+  {
+    "themeName": "PASTEL_GREEN",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_SUCCESS"
+  },
+  {
+    "themeName": "PASTEL_GREEN",
+    "findText": "---",
+    "tokenName": "buttonTokens.COLOR_BUTTON_SUCCESS"
+  },
+  {
+    "themeName": "PASTEL_GREEN",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_TARA"
+  },
+  {
+    "themeName": "PEACH_CREAM",
+    "findText": "backgroundColor:#borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color:",
+    "tokenName": "chartTokens.COLOR_CHART_SALMON_SUBTLE"
+  },
+  {
+    "themeName": "PEACH_ORANGE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
+  },
+  {
+    "themeName": "PEACH_ORANGE",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_WARNING"
+  },
+  {
+    "themeName": "PEACH_ORANGE",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_WARNING"
+  },
+  {
+    "themeName": "PEACH_ORANGE",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_KOROMIKO"
+  },
+  {
+    "themeName": "PEARL",
+    "findText": "background:#background-color#BADGE_TYPES",
+    "tokenName": "bgTokens.COLOR_BG_DISABLED"
+  },
+  {
+    "themeName": "PEARL",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_SECONDARY"
+  },
+  {
+    "themeName": "PICKLED_BLUEWOOD",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_INVERSE_TERTIARY"
+  },
+  {
+    "themeName": "PICO_IVORY",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_BRAND"
+  },
+  {
+    "themeName": "PIPPIN",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_DANGER"
+  },
+  {
+    "themeName": "PIPPIN",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_PIPPIN_SUBTLE"
+  },
+  {
+    "themeName": "PORCELAIN",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_TERTIARY"
+  },
+  {
+    "themeName": "PORCELAIN",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
+  },
+  {
+    "themeName": "Q_UPDATE",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_QUICKUPDATE"
+  },
+  {
+    "themeName": "QUEST",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_COACHING"
+  },
+  {
+    "themeName": "QUEST",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_QUEST"
+  },
+  {
+    "themeName": "RHINO",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_NAVBAR3"
+  },
+  {
+    "themeName": "RONCHI",
+    "findText": "MEDIA_TYPE",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_AUDIO"
+  },
+  {
+    "themeName": "SALESFORCE",
+    "findText": "---",
+    "tokenName": "deprecatedTokens.COLOR_DEPRECATED_BLUE4"
+  },
+  {
+    "themeName": "SALMON",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "chartTokens.COLOR_CHART_SALMON"
+  },
+  {
+    "themeName": "SANDY_BROWN",
+    "findText": "MEDIA_TYPE",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_PPT"
+  },
+  {
+    "themeName": "SAZERAC",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_WARNING"
+  },
+  {
+    "themeName": "SAZERAC",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_KOROMIKO_SUBTLE"
+  },
+  {
+    "themeName": "SEAGULL",
+    "findText": "MEDIA_TYPE",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_DOC"
+  },
+  {
+    "themeName": "SHARK",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_STRONG"
+  },
+  {
+    "themeName": "SHARK",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_INVERSE_SECONDARY"
+  },
+  {
+    "themeName": "SHARK",
+    "findText": "color:#LINK_TYPE",
+    "tokenName": "textTokens.COLOR_TEXT_DEFAULT"
+  },
+  {
+    "themeName": "SILVER",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_STRONG"
+  },
+  {
+    "themeName": "SILVER",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_DISABLED"
+  },
+  {
+    "themeName": "SILVER",
+    "findText": "color:#LINK_TYPE#BADGE_TYPES",
+    "tokenName": "textTokens.COLOR_TEXT_SECONDARY"
+  },
+  {
+    "themeName": "SILVER",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_DISABLED"
+  },
+  {
+    "themeName": "SKY",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_ACCENT"
+  },
+  {
+    "themeName": "SKY",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
+  },
+  {
+    "themeName": "SKY",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_ACCENT"
+  },
+  {
+    "themeName": "SKY",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_ACCENT"
+  },
+  {
+    "themeName": "SKY",
+    "findText": "---",
+    "tokenName": "filetypeTokens.COLOR_FILETYPE_LINK"
+  },
+  {
+    "themeName": "SKY",
+    "findText": "---",
+    "tokenName": "buttonTokens.COLOR_BUTTON_ACCENT"
+  },
+  {
+    "themeName": "SKY",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_HUB"
+  },
+  {
+    "themeName": "SKY",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
+  },
+  {
+    "themeName": "SNOWWHITE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_DEFAULT"
+  },
+  {
+    "themeName": "SNOWWHITE",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
+  },
+  {
+    "themeName": "SNOWWHITE",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_INVERSE"
+  },
+  {
+    "themeName": "SNOWWHITE",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_INVERSE"
+  },
+  {
+    "themeName": "SUNGLO",
+    "findText": "bg_color",
+    "tokenName": "moduleTokens.COLOR_MODULE_QUICKUPDATE"
+  },
+  {
+    "themeName": "SUNRISE",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_MAGGIE_SUBTLE"
+  },
+  {
+    "themeName": "TAG_HOVER_TEXT_COLOR",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_ACCENT"
+  },
+  {
+    "themeName": "TARA",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color",
+    "tokenName": "bgTokens.COLOR_BG_SUCCESS"
+  },
+  {
+    "themeName": "TARA",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_TARA_SUBTLE"
+  },
+  {
+    "themeName": "TRANSPARENT",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right::#color:#background:#background-color:",
+    "tokenName": "transparent"
+  },
+  {
+    "themeName": "TROPICAL_BLUE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_SELECTED"
+  },
+  {
+    "themeName": "TROPICAL_BLUE",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color",
+    "tokenName": "bgTokens.COLOR_BG_ACCENT_SELECTED"
+  },
+  {
+    "themeName": "WARNING",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
+  },
+  {
+    "themeName": "WARNING",
+    "findText": "color:#BADGE_TYPES",
+    "tokenName": "textTokens.COLOR_TEXT_WARNING"
+  },
+  {
+    "themeName": "WARNING",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_WARNING"
+  },
+  {
+    "themeName": "WARNING",
+    "findText": "---",
+    "tokenName": "chartTokens.COLOR_CHART_KOROMIKO"
+  },
+  {
+    "themeName": "WHITE",
+    "findText": "background:#background-color:#backgroundColor:",
+    "tokenName": "bgTokens.COLOR_BG_DEFAULT"
+  },
+  {
+    "themeName": "WHITE",
+    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
+  },
+  {
+    "themeName": "WHITE",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_INVERSE"
+  },
+  {
+    "themeName": "WHITE",
+    "findText": "color:#color =",
+    "tokenName": "textTokens.COLOR_TEXT_INVERSE"
+  }
 ]
