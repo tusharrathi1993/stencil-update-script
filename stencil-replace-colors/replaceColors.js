@@ -37,13 +37,19 @@ function findLineWithText(filePath, findText, stringToReplace, newString) {
 			const lineNumber = index + 1;
 			if (lineNumber > 0 && lineNumber <= lines.length) {
 				const lineToReplace = lines[lineNumber - 1];
-				const regEx = `theme.colors.${stringToReplace}|colors.${stringToReplace}`;
-				const replacedLine = lineToReplace.replace(
-					new RegExp(regEx, 'g'),
-					`tokens.${newString}`
+				const regEx = new RegExp(
+					`theme.colors.${stringToReplace}|colors.${stringToReplace}`,
+					'g'
 				);
-				lines[lineNumber - 1] = replacedLine;
-				changesDone = true;
+
+				if (regEx.test(line)) {
+					const replacedLine = lineToReplace.replace(
+						regEx,
+						`tokens.${newString}`
+					);
+					lines[lineNumber - 1] = replacedLine;
+					changesDone = true;
+				}
 			} else {
 				console.error('Invalid line number or file content.');
 			}
