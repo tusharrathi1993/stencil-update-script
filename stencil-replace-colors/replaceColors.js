@@ -14,13 +14,13 @@ const folderPath = args[2];
 
 // Regex for skipping folders while executing this script
 const skipFoldersPattern = new RegExp(
-	'styles|icon|lib|__tests__|__test__|images|__snapshots__|node_modules|dist|.git|types|assets|locales|.yarn'
+	'styles|icon|lib|__tests__|__test__|images|__snapshots__|node_modules|dist|.git|types|assets|locales|.yarn|__generated__|graphql'
 );
 
 // const includeFoldersPattern = new RegExp('packages/');
 const regexPattern = new RegExp('.*.js|.*.ts|.*.tsx');
 const excludePattern = new RegExp(
-	'lib|package.json|.*.md|messages.*|.*.css|.*.scss|.*.svg|yarn.lock|package-lock.json|.*.d.ts|.*.test.ts|.*.json|.*.sh|.*.env'
+	'lib|package.json|.*.md|messages.*|.*.css|.*.scss|.*.svg|yarn.lock|package-lock.json|.*.d.ts|.*.test.ts|.*.json|.*.sh|.*.env|.*.graphql'
 );
 
 // Function to find and return the line number containing a specific string
