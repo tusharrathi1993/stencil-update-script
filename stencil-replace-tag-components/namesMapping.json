@@ -42,15 +42,15 @@
     "isSpecific": ""
   },
   {
-    "componentName": "Token",
-    "findText": "import Token",
-    "replaceName": "{ BadgeWithStatus }",
-    "isSpecific": ""
-  },
-  {
     "componentName": "Token, {",
     "findText": "import Token, {",
     "replaceName": "{ BadgeWithStatus,",
+    "isSpecific": ""
+  },
+  {
+    "componentName": "Token",
+    "findText": "import Token",
+    "replaceName": "{ BadgeWithStatus }",
     "isSpecific": ""
   },
   {
