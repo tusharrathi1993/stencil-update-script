@@ -79,7 +79,7 @@ function replaceStringInFiles(directoryPath, regexPattern) {
 				return;
 			}
 
-			console.log('Itereting over file:', filePath);
+			console.log('Iterating over file:', filePath);
 
 			fs.stat(filePath, (err, stats) => {
 				if (err) {
