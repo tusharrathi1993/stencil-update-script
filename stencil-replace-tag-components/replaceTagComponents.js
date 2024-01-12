@@ -44,6 +44,7 @@ function findLineWithText(filePath, findText, stringToReplace, newString) {
 				lines[lineNumber - 1] = replacedLine;
 				changesDone = true;
 			} else {
+				// console statement
 				console.error('Invalid line number or file content.');
 			}
 		}
