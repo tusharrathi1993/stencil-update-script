@@ -28,8 +28,7 @@ echo "${YELLOW}🟢 yarn"
 echo "${YELLOW}🔴 pnp"
 read -p "Enter your client to install packages: " clientToUse
 
-if [[ "$clientToUse" == "" ]]
-then
+if [[ $clientToUse != "yarn" && $clientToUse != "npm" && $clientToUse != "pnp" ]]; then
   echo "${RED}⚠️ Please provide client to install... npm | yarn | pnp ⚠️${NC}"
   exit 0
 fi
@@ -52,6 +51,7 @@ MODULE_TO_BE_INSTALL=""
 changeLogMapping=()
 
 pacakgesToBeReplaced=("@mindtickle/tag @mindtickle/pill" "@mindtickle/tag-input @mindtickle/input-pill" "@mindtickle/tag-input-with-suggestions @mindtickle/input-pill-with-auto-suggestions" "@mindtickle/tags-by-category @mindtickle/pills-by-category" "@mindtickle/token @mindtickle/badge")
+
 kebab_to_camel() {
     componentName=$(split_string "$1" "/")
     local string="$componentName"
@@ -110,21 +110,22 @@ get_replaced_package_name() {
     return
 }
 
-get_packages_to_be_removed() {
-    local packagesToBeRemoved=""
+get_removed_package_name() {
     for entry in "${pacakgesToBeReplaced[@]}"; do
         read -r old new <<< "$entry"
-        packagesToBeRemoved="$packagesToBeRemoved $old"
+        if [ "$old" == "$1" ]; then
+            echo $old
+            return
+        fi
     done
-
-    echo $packagesToBeRemoved
-    return
 }
 
 echo "${GREEN}🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟${NC}"
 for i in $MODULE_LIST
 do  
    package=$(get_replaced_package_name "$i")
+   MODULE_TO_BE_REMOVED="${MODULE_TO_BE_REMOVED} $(get_removed_package_name "$i")"
+   
    echo "${YELLOW}📦 Fetching package information for $package...${NC}"
    npm view ${package} dist-tags --json > pk.json
    stencilVersion=$(jq -r '.latest' pk.json)
@@ -148,8 +149,7 @@ for module in "${modulesToInstall[@]}"; do
     echo "   $module"
 done
 echo "${YELLOW}🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍${NC}"
-echo "${YELLOW}📦 These packages will be removed if used in the project${NC}"
-MODULE_TO_BE_REMOVED=$(get_packages_to_be_removed)
+echo "${RED}📦 These packages will be removed if used in the project${NC}"
 
 IFS=' ' read -ra modulesToRemove <<< "$MODULE_TO_BE_REMOVED"
 
