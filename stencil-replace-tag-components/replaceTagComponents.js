@@ -23,7 +23,13 @@ const excludePattern = new RegExp(
 );
 
 // Function to find and return the line number containing a specific string
-function findLineWithText(filePath, findText, stringToReplace, newString) {
+function findLineWithText(
+	filePath,
+	findText,
+	stringToReplace,
+	newString,
+	isSpecific
+) {
 	const data = fs.readFileSync(filePath, 'utf8');
 
 	const lines = data.split('\n');
@@ -37,8 +43,10 @@ function findLineWithText(filePath, findText, stringToReplace, newString) {
 			if (lineNumber > 0 && lineNumber <= lines.length) {
 				const lineToReplace = lines[lineNumber - 1];
 				const regEx = `${stringToReplace}`;
+				const replaceRegex =
+					isSpecific === 'TRUE' ? `\\b${regEx}\\b` : `${regex}`;
 				const replacedLine = lineToReplace.replace(
-					new RegExp('\\b' + regEx + '\\b', 'g'),
+					new RegExp(replaceRegex, 'g'),
 					`${newString}`
 				);
 				lines[lineNumber - 1] = replacedLine;
@@ -92,9 +100,16 @@ function replaceStringInFiles(directoryPath, regexPattern) {
 						const {
 							componentName: stringToReplace,
 							findText,
-							replaceName: newString
+							replaceName: newString,
+							isSpecific
 						} = color;
-						findLineWithText(filePath, findText, stringToReplace, newString);
+						findLineWithText(
+							filePath,
+							findText,
+							stringToReplace,
+							newString,
+							isSpecific
+						);
 					});
 				} else {
 					replaceStringInFiles(filePath, regexPattern);

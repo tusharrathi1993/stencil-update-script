@@ -2,48 +2,52 @@
 const fs = require('fs');
 
 const mappingColors = [
-	`@mindtickle/tag|@mindtickle/tag|@mindtickle/pill`,
-	`@mindtickle/tag-input|@mindtickle/tag-input|@mindtickle/input-pill`,
-	`@mindtickle/tag-input-with-suggestions|@mindtickle/tag-input-with-suggestions|@mindtickle/input-pill-with-auto-suggestions`,
-	`@mindtickle/tags-by-category|@mindtickle/tags-by-category|@mindtickle/pills-by-category`,
-	`@mindtickle/token|@mindtickle/token|@mindtickle/badge`,
-	`Tag|import Tag|Pill`,
-	`TagsByCategory|import TagsByCategory|PillsByCategory`,
-	`Token|import Token|{ BadgeWithStatus }`,
-	`TagInput|import TagInput|InputPill`,
-	`TagInputWithSuggestions|import TagInputWithSuggestions|InputPillWithAutoSuggestions`,
-	`TagInputWithSuggestions|TagInputWithSuggestions|InputPillWithAutoSuggestions`,
-	`ActionTag|ActionTag|ActionPill`,
-	`AdditionTag|AdditionTag|AdditionPill`,
-	`CheckmarkTag|CheckmarkTag|CheckmarkPill`,
-	`CheckableTag|CheckableTag|CheckablePill`,
-	`DestructiveTag|DestructiveTag|DestructivePill`,
-	`SuggestedTags|SuggestedTags|SuggestedPills`,
-	`CreateTagFromCategory|CreateTagFromCategory|CreatePillFromCategory`,
-	`CREATE_TAG_TYPE|CREATE_TAG_TYPE|CREATE_PILL_TYPE`,
-	`Category|Category|Category`,
-	`CreateTagFromSearch|CreateTagFromSearch|CreatePillFromSearch`,
-	`Token|Token|BadgeWithStatus`,
-	`TAG_STATES|TAG_STATES|PILL_STATES`,
-	`TAG_TYPES|TAG_TYPES|PILL_TYPES`,
-	`TagInput|TagInput|InputPill`,
-	`TagInputWithSuggestions|TagInputWithSuggestions|InputPillWithAutoSuggestions`,
-	`TagsByCategory|<TagsByCategory#/TagsByCategory>|PillsByCategory`,
-	`Tag|<Tag#/Tag>|Pill`,
-	`NormalTag|<NormalTag#/NormalTag>|Pill`,
-	`Token|<Token#/Token>|BadgeWithStatus`,
-	`TagInput|<TagInput#/TagInput>|InputPill`
+	`@mindtickle/tag|@mindtickle/tag|@mindtickle/pill|`,
+	`@mindtickle/tag-input|@mindtickle/tag-input|@mindtickle/input-pill|`,
+	`@mindtickle/tag-input-with-suggestions|@mindtickle/tag-input-with-suggestions|@mindtickle/input-pill-with-auto-suggestions|`,
+	`@mindtickle/tags-by-category|@mindtickle/tags-by-category|@mindtickle/pills-by-category|`,
+	`@mindtickle/token|@mindtickle/token|@mindtickle/badge|`,
+	`Tag|import Tag|Pill|`,
+	`TagsByCategory|import TagsByCategory|PillsByCategory|`,
+	`Token|import Token|{ BadgeWithStatus }|`,
+	`Token, {|import Token, {|{ BadgeWithStatus,|`,
+	`NormalTag|import NormalTag|Pill|`,
+	`TagInput|import TagInput|InputPill|`,
+	`TagInputWithSuggestions|import TagInputWithSuggestions|InputPillWithAutoSuggestions|`,
+	`TagInputWithSuggestions|TagInputWithSuggestions|InputPillWithAutoSuggestions|`,
+	`ActionTag|ActionTag|ActionPill|`,
+	`AdditionTag|AdditionTag|AdditionPill|`,
+	`CheckmarkTag|CheckmarkTag|CheckmarkPill|`,
+	`CheckableTag|CheckableTag|CheckablePill|`,
+	`DestructiveTag|DestructiveTag|DestructivePill|`,
+	`SuggestedTags|SuggestedTags|SuggestedPills|`,
+	`CreateTagFromCategory|CreateTagFromCategory|CreatePillFromCategory|`,
+	`CREATE_TAG_TYPE|CREATE_TAG_TYPE|CREATE_PILL_TYPE|`,
+	`Category|Category|Category|`,
+	`CreateTagFromSearch|CreateTagFromSearch|CreatePillFromSearch|`,
+	`Token|<Token#/Token>|BadgeWithStatus|TRUE`,
+	`TAG_STATES|TAG_STATES|PILL_STATES|TRUE`,
+	`TAG_TYPES|TAG_TYPES|PILL_TYPES|TRUE`,
+	`TagInput|TagInput|InputPill|TRUE`,
+	`TagInputWithSuggestions|TagInputWithSuggestions|InputPillWithAutoSuggestions|TRUE`,
+	`TagsByCategory|<TagsByCategory#/TagsByCategory>|PillsByCategory|TRUE`,
+	`Tag|<Tag#/Tag>|Pill|TRUE`,
+	`NormalTag|<NormalTag#/NormalTag>|Pill|TRUE`,
+	`Token|<Token#/Token>|BadgeWithStatus|TRUE`,
+	`TagInput|<TagInput#/TagInput>|InputPill|TRUE`
 ];
 
 const obj = mappingColors.map((o) => {
 	const oneOnOneColorsMapping = o.split('|');
 
-	const [componentName, findText, replaceName] = oneOnOneColorsMapping;
+	const [componentName, findText, replaceName, isSpecific] =
+		oneOnOneColorsMapping;
 
 	return {
 		componentName,
 		findText,
-		replaceName
+		replaceName,
+		isSpecific
 	};
 });
 
