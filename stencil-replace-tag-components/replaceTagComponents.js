@@ -44,7 +44,7 @@ function findLineWithText(
 				const lineToReplace = lines[lineNumber - 1];
 				const regEx = `${stringToReplace}`;
 				const replaceRegex =
-					isSpecific === 'TRUE' ? `\\b${regEx}\\b` : `${regex}`;
+					isSpecific === 'TRUE' ? `\\b${regEx}\\b` : `${regEx}`;
 				const replacedLine = lineToReplace.replace(
 					new RegExp(replaceRegex, 'g'),
 					`${newString}`
