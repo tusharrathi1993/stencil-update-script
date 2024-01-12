@@ -28,8 +28,8 @@ function findLineWithText(filePath, findText, stringToReplace, newString) {
 	const data = fs.readFileSync(filePath, 'utf8');
 
 	const lines = data.split('\n');
-	const pattern = findText.split('#').join('\\b|\\b');
-	const findPattern = new RegExp('(\\b' + pattern + '\\b)');
+	const pattern = findText.split('#').join('|');
+	const findPattern = new RegExp('(' + pattern + ')');
 
 	let changesDone = false;
 	lines.forEach((line, index) => {
