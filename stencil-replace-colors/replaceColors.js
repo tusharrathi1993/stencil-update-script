@@ -72,14 +72,9 @@ function replaceStringInFiles(directoryPath, regexPattern) {
 		files.forEach((file) => {
 			const filePath = path.join(directoryPath, file);
 
-			if (!regexPattern.test(filePath)) {
-				console.log('Skipping file', filePath);
+			if (skipFoldersPattern.test(directoryPath)) {
 				return;
 			}
-
-			// if (skipFoldersPattern.test(directoryPath)) {
-			// 	return;
-			// }
 
 			// if (!includeFoldersPattern.test(filePath)) {
 			// 	return;
@@ -99,6 +94,11 @@ function replaceStringInFiles(directoryPath, regexPattern) {
 				}
 
 				if (stats.isFile()) {
+					if (!regexPattern.test(filePath)) {
+						console.log('Skipping file', filePath);
+						return;
+					}
+
 					replaceColors.forEach((color) => {
 						const {
 							themeName: stringToReplace,
