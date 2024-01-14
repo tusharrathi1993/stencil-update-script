@@ -20,7 +20,7 @@ const skipFoldersPattern = new RegExp(
 // const includeFoldersPattern = new RegExp('packages/');
 const regexPattern = new RegExp('.*.js|.*.ts|.*.tsx');
 const excludePattern = new RegExp(
-	'lib|package.json|.*.md|messages.*|.*.css$|.*.scss|.*.svg|yarn.lock|package-lock.json|.*.d.ts|.*.test.ts|.*.json|.*.sh|.*.env|.*.graphql'
+	'lib|package.json|.*.md|messages.*|.*.css$|.*.scss$|.*.svg$|yarn.lock|package-lock.json|.*.d.ts$|.*.test.ts$|.*.json$|.*.sh$|.*.env$|.*.graphql$';
 );
 
 // Function to find and return the line number containing a specific string
