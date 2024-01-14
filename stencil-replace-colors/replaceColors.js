@@ -94,7 +94,6 @@ function replaceStringInFiles(directoryPath, regexPattern) {
 				}
 
 				if (stats.isFile()) {
-					console.log('>>>>>>>', filePath);
 					if (!regexPattern.test(filePath)) {
 						console.log('Skipping file', filePath);
 						return;
