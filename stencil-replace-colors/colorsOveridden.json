@@ -6,12 +6,12 @@
   },
   {
     "themeName": "ALTO",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_DEFAULT"
   },
   {
     "themeName": "ALTO",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_DISABLED"
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "themeName": "ATHENSGRAY",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "chartTokens.COLOR_CHART_ALTO"
   },
   {
@@ -56,17 +56,17 @@
   },
   {
     "themeName": "BITTERSWEET",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_DANGER_STRONG"
   },
   {
     "themeName": "BITTERSWEET",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_DANGER"
   },
   {
     "themeName": "BITTERSWEET",
-    "findText": "color:#LINK_TYPE#BADGE_TYPES",
+    "findText": "color:#color =",
     "tokenName": "textTokens.COLOR_TEXT_DANGER"
   },
   {
@@ -86,7 +86,12 @@
   },
   {
     "themeName": "BLACK",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color:#backgroundColor:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "tokenName": "iconTokens.COLOR_ICON_STRONG"
+  },
+  {
+    "themeName": "BLACK",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "iconTokens.COLOR_ICON_STRONG"
   },
   {
@@ -171,12 +176,12 @@
   },
   {
     "themeName": "DANUBE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_ACCENT"
   },
   {
     "themeName": "DANUBE",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
   },
   {
@@ -226,12 +231,12 @@
   },
   {
     "themeName": "DARK_OUTER_SPACE",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "DARK_OUTER_SPACE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_STRONG"
   },
   {
@@ -241,17 +246,17 @@
   },
   {
     "themeName": "DEEP_CHAMPAGNE",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_BRAND"
   },
   {
     "themeName": "DISABLE",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "DISABLE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_DISABLED"
   },
   {
@@ -311,12 +316,12 @@
   },
   {
     "themeName": "GREY",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "GREY",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_STRONG"
   },
   {
@@ -326,17 +331,17 @@
   },
   {
     "themeName": "HUNTER_GREEN",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "chartTokens.COLOR_CHART_HUNTER"
   },
   {
     "themeName": "ICON",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "ICON",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_STRONG"
   },
   {
@@ -346,17 +351,17 @@
   },
   {
     "themeName": "INDIGO",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_ACCENT"
   },
   {
     "themeName": "INDIGO",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
   },
   {
     "themeName": "INDIGO",
-    "findText": "color:#LINK_TYPE#BADGE_TYPES",
+    "findText": "color:#color =",
     "tokenName": "textTokens.COLOR_TEXT_ACCENT"
   },
   {
@@ -386,12 +391,12 @@
   },
   {
     "themeName": "IVORY",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_SECONDARY"
   },
   {
     "themeName": "IVORY",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
   },
   {
@@ -406,12 +411,12 @@
   },
   {
     "themeName": "KOROMIKO",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
   },
   {
     "themeName": "KOROMIKO",
-    "findText": "color:#BADGE_TYPES",
+    "findText": "color:#color =",
     "tokenName": "textTokens.COLOR_TEXT_WARNING"
   },
   {
@@ -426,17 +431,17 @@
   },
   {
     "themeName": "LIGHT_BLUE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_SELECTED"
   },
   {
     "themeName": "LIGHT_GREY",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_DEFAULT"
   },
   {
     "themeName": "LIGHT_GREY",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
   },
   {
@@ -451,7 +456,7 @@
   },
   {
     "themeName": "LIGHT_ORANGE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_WARNING"
   },
   {
@@ -461,7 +466,7 @@
   },
   {
     "themeName": "MACRONI_CHEESE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
   },
   {
@@ -481,7 +486,7 @@
   },
   {
     "themeName": "MAGGIE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
   },
   {
@@ -498,6 +503,16 @@
     "themeName": "MAGGIE",
     "findText": "---",
     "tokenName": "chartTokens.COLOR_CHART_KOROMIKO"
+  },
+  {
+    "themeName": "MANATEE",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "tokenName": "iconTokens.COLOR_ICON_INVERSE_TERTIARY"
+  },
+  {
+    "themeName": "MANATEE",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "tokenName": "iconTokens.COLOR_ICON_INVERSE_TERTIARY"
   },
   {
     "themeName": "MANATEE",
@@ -507,11 +522,6 @@
   {
     "themeName": "MANATEE",
     "findText": "---",
-    "tokenName": "iconTokens.COLOR_ICON_INVERSE_TERTIARY"
-  },
-  {
-    "themeName": "MANATEE",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color:#backgroundColor:",
     "tokenName": "iconTokens.COLOR_ICON_INVERSE_TERTIARY"
   },
   {
@@ -526,12 +536,17 @@
   },
   {
     "themeName": "NEPTUNE",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "tokenName": "buttonTokens.COLOR_BUTTON_ACCENT_ACTIVE"
+  },
+  {
+    "themeName": "NEPTUNE",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "buttonTokens.COLOR_BUTTON_ACCENT_ACTIVE"
   },
   {
     "themeName": "OASIS",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_WARNING"
   },
   {
@@ -541,17 +556,17 @@
   },
   {
     "themeName": "OCEAN",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_ACCENT"
   },
   {
     "themeName": "OCEAN",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
   },
   {
     "themeName": "OCEAN",
-    "findText": "color:#BADGE_TYPES",
+    "findText": "color:#color =",
     "tokenName": "textTokens.COLOR_TEXT_ACCENT"
   },
   {
@@ -581,17 +596,17 @@
   },
   {
     "themeName": "OUTER_SPACE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_STRONG"
   },
   {
     "themeName": "OUTER_SPACE",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "OUTER_SPACE",
-    "findText": "color:#LINK_TYPE",
+    "findText": "color:#color =",
     "tokenName": "textTokens.COLOR_TEXT_TERTIARY"
   },
   {
@@ -606,7 +621,7 @@
   },
   {
     "themeName": "PALE_BLUE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_ACCENT_SELECTED"
   },
   {
@@ -616,7 +631,7 @@
   },
   {
     "themeName": "PALE_GREEN",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_QUESTION"
   },
   {
@@ -626,12 +641,12 @@
   },
   {
     "themeName": "PASTEL_GREEN",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_SUCCESS_STRONG"
   },
   {
     "themeName": "PASTEL_GREEN",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_SUCCESS"
   },
   {
@@ -656,12 +671,17 @@
   },
   {
     "themeName": "PEACH_CREAM",
-    "findText": "backgroundColor:#borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "tokenName": "chartTokens.COLOR_CHART_SALMON_SUBTLE"
+  },
+  {
+    "themeName": "PEACH_CREAM",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "chartTokens.COLOR_CHART_SALMON_SUBTLE"
   },
   {
     "themeName": "PEACH_ORANGE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
   },
   {
@@ -686,22 +706,22 @@
   },
   {
     "themeName": "PEARL",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_SECONDARY"
   },
   {
     "themeName": "PICKLED_BLUEWOOD",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_INVERSE_TERTIARY"
   },
   {
     "themeName": "PICO_IVORY",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_BRAND"
   },
   {
     "themeName": "PIPPIN",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_DANGER"
   },
   {
@@ -711,12 +731,12 @@
   },
   {
     "themeName": "PORCELAIN",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_TERTIARY"
   },
   {
     "themeName": "PORCELAIN",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
   },
   {
@@ -751,7 +771,7 @@
   },
   {
     "themeName": "SALMON",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "chartTokens.COLOR_CHART_SALMON"
   },
   {
@@ -761,7 +781,7 @@
   },
   {
     "themeName": "SAZERAC",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_WARNING"
   },
   {
@@ -776,32 +796,32 @@
   },
   {
     "themeName": "SHARK",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "SHARK",
-    "findText": "background:#background-color:#backgroundColor:",
-    "tokenName": "bgTokens.COLOR_BG_INVERSE_SECONDARY"
-  },
-  {
-    "themeName": "SHARK",
-    "findText": "color:#LINK_TYPE",
+    "findText": "color:#color =",
     "tokenName": "textTokens.COLOR_TEXT_DEFAULT"
   },
   {
+    "themeName": "SHARK",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "tokenName": "bgTokens.COLOR_BG_INVERSE_SECONDARY"
+  },
+  {
     "themeName": "SILVER",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "SILVER",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_DISABLED"
   },
   {
     "themeName": "SILVER",
-    "findText": "color:#LINK_TYPE#BADGE_TYPES",
+    "findText": "color:#color =",
     "tokenName": "textTokens.COLOR_TEXT_SECONDARY"
   },
   {
@@ -811,12 +831,12 @@
   },
   {
     "themeName": "SKY",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_ACCENT"
   },
   {
     "themeName": "SKY",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
   },
   {
@@ -851,12 +871,12 @@
   },
   {
     "themeName": "SNOWWHITE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_DEFAULT"
   },
   {
     "themeName": "SNOWWHITE",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
   },
   {
@@ -886,7 +906,12 @@
   },
   {
     "themeName": "TARA",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "tokenName": "bgTokens.COLOR_BG_SUCCESS"
+  },
+  {
+    "themeName": "TARA",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_SUCCESS"
   },
   {
@@ -896,27 +921,37 @@
   },
   {
     "themeName": "TRANSPARENT",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right::#color:#background:#background-color:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor:",
+    "tokenName": "transparent"
+  },
+  {
+    "themeName": "TRANSPARENT",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "tokenName": "transparent"
+  },
+  {
+    "themeName": "TRANSPARENT",
+    "findText": "color:#color =",
     "tokenName": "transparent"
   },
   {
     "themeName": "TROPICAL_BLUE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_SELECTED"
   },
   {
     "themeName": "TROPICAL_BLUE",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#background:#background-color",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "bgTokens.COLOR_BG_ACCENT_SELECTED"
   },
   {
     "themeName": "WARNING",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
   },
   {
     "themeName": "WARNING",
-    "findText": "color:#BADGE_TYPES",
+    "findText": "color:#color =",
     "tokenName": "textTokens.COLOR_TEXT_WARNING"
   },
   {
@@ -931,22 +966,22 @@
   },
   {
     "themeName": "WHITE",
-    "findText": "background:#background-color:#backgroundColor:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "bgTokens.COLOR_BG_DEFAULT"
   },
   {
     "themeName": "WHITE",
-    "findText": "borderColor#border:#border-color:#border-top:#border-bottom:#border-left:#border-right:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
     "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
-  },
-  {
-    "themeName": "WHITE",
-    "findText": "---",
-    "tokenName": "iconTokens.COLOR_ICON_INVERSE"
   },
   {
     "themeName": "WHITE",
     "findText": "color:#color =",
     "tokenName": "textTokens.COLOR_TEXT_INVERSE"
+  },
+  {
+    "themeName": "WHITE",
+    "findText": "---",
+    "tokenName": "iconTokens.COLOR_ICON_INVERSE"
   }
 ]
