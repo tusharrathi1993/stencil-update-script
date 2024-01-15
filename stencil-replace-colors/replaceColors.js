@@ -25,44 +25,44 @@ const excludePattern = new RegExp(
 
 // Function to find and return the line number containing a specific string
 function findLineWithText(filePath, findText, stringToReplace, newString) {
-	fs.readFile(filePath, 'utf8', (err, data) => {
-		const lines = data.split('\n');
-		const pattern = findText.split('#').join('|');
-		const findPattern = new RegExp('(' + pattern + ')');
+	const data = fs.readFileSync(filePath, 'utf8');
 
-		let changesDone = false;
-		lines.forEach((line, index) => {
-			if (findPattern.test(line)) {
-				const lineNumber = index + 1;
-				if (lineNumber > 0 && lineNumber <= lines.length) {
-					const lineToReplace = lines[lineNumber - 1];
-					const regEx = new RegExp(
-						`theme.colors.${stringToReplace}|colors.${stringToReplace}`,
-						'g'
+	const lines = data.split('\n');
+	const pattern = findText.split('#').join('|');
+	const findPattern = new RegExp('(' + pattern + ')');
+
+	let changesDone = false;
+	lines.forEach((line, index) => {
+		if (findPattern.test(line)) {
+			const lineNumber = index + 1;
+			if (lineNumber > 0 && lineNumber <= lines.length) {
+				const lineToReplace = lines[lineNumber - 1];
+				const regEx = new RegExp(
+					`theme.colors.${stringToReplace}|colors.${stringToReplace}`,
+					'g'
+				);
+
+				if (regEx.test(line)) {
+					const replacedLine = lineToReplace.replace(
+						regEx,
+						`tokens.${newString}`
 					);
-
-					if (regEx.test(line)) {
-						const replacedLine = lineToReplace.replace(
-							regEx,
-							`tokens.${newString}`
-						);
-						lines[lineNumber - 1] = replacedLine;
-						changesDone = true;
-					}
-				} else {
-					console.error('Invalid line number or file content.');
+					lines[lineNumber - 1] = replacedLine;
+					changesDone = true;
 				}
+			} else {
+				console.error('Invalid line number or file content.');
 			}
-		});
-
-		if (changesDone && !lines[0].includes(importStatement)) {
-			lines.unshift(importStatement);
 		}
-
-		const updatedContent = lines.join('\n');
-
-		fs.writeFileSync(filePath, updatedContent);
 	});
+
+	if (changesDone && !lines[0].includes(importStatement)) {
+		lines.unshift(importStatement);
+	}
+
+	const updatedContent = lines.join('\n');
+
+	fs.writeFileSync(filePath, updatedContent);
 }
 
 function replaceStringInFiles(directoryPath, regexPattern) {
