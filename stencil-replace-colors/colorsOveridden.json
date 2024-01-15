@@ -31,12 +31,12 @@
   },
   {
     "themeName": "ANZAC",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_ASSESSMENT"
   },
   {
     "themeName": "ASSESSMENT",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_ASSESSMENT"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "themeName": "BALI_HAI",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_MISSION"
   },
   {
@@ -151,7 +151,7 @@
   },
   {
     "themeName": "CHECKLIST",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_CHECKLIST"
   },
   {
@@ -161,7 +161,7 @@
   },
   {
     "themeName": "COACHING",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_QUEST"
   },
   {
@@ -171,7 +171,7 @@
   },
   {
     "themeName": "COURSE",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_COURSE"
   },
   {
@@ -206,12 +206,12 @@
   },
   {
     "themeName": "DANUBE",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_HUB"
   },
   {
     "themeName": "DANUBE",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
   },
   {
@@ -281,7 +281,7 @@
   },
   {
     "themeName": "EMERALD",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_COURSE"
   },
   {
@@ -291,12 +291,12 @@
   },
   {
     "themeName": "FOUNTAIN_BLUE",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_COACHING"
   },
   {
     "themeName": "FOUNTAIN_BLUE",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_QUEST"
   },
   {
@@ -381,12 +381,12 @@
   },
   {
     "themeName": "INDIGO",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_HUB"
   },
   {
     "themeName": "INDIGO",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
   },
   {
@@ -406,7 +406,7 @@
   },
   {
     "themeName": "JORDY_BLUE",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_ILT"
   },
   {
@@ -531,7 +531,7 @@
   },
   {
     "themeName": "MISSION",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_MISSION"
   },
   {
@@ -586,12 +586,12 @@
   },
   {
     "themeName": "OCEAN",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_HUB"
   },
   {
     "themeName": "OCEAN",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
   },
   {
@@ -741,17 +741,17 @@
   },
   {
     "themeName": "Q_UPDATE",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_QUICKUPDATE"
   },
   {
     "themeName": "QUEST",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_COACHING"
   },
   {
     "themeName": "QUEST",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_QUEST"
   },
   {
@@ -861,12 +861,12 @@
   },
   {
     "themeName": "SKY",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_HUB"
   },
   {
     "themeName": "SKY",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
   },
   {
@@ -891,7 +891,7 @@
   },
   {
     "themeName": "SUNGLO",
-    "findText": "bg_color",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
     "tokenName": "moduleTokens.COLOR_MODULE_QUICKUPDATE"
   },
   {
@@ -995,6 +995,11 @@
     "tokenName": "theme.fontFamily.DEFAULT"
   },
   {
+    "themeName": "\"Open Sans\"",
+    "findText": "fontFamily",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
     "themeName": "'Open Sans'",
     "findText": "fontFamily",
     "tokenName": "theme.fontFamily.DEFAULT"
@@ -1030,7 +1035,17 @@
     "tokenName": "${theme.fontFamily.DEFAULT}"
   },
   {
+    "themeName": "\"Open Sans\"",
+    "findText": "font-family#'\"Open Sans\", sans-serif'#\"Open Sans\"#'Open Sans'#Open Sans#\"Roboto\"#'Roboto'#Roboto",
+    "tokenName": "${theme.fontFamily.DEFAULT}"
+  },
+  {
     "themeName": "'Open Sans'",
+    "findText": "font-family#'\"Open Sans\", sans-serif'#\"Open Sans\"#'Open Sans'#Open Sans#\"Roboto\"#'Roboto'#Roboto",
+    "tokenName": "${theme.fontFamily.DEFAULT}"
+  },
+  {
+    "themeName": "Open Sans",
     "findText": "font-family#'\"Open Sans\", sans-serif'#\"Open Sans\"#'Open Sans'#Open Sans#\"Roboto\"#'Roboto'#Roboto",
     "tokenName": "${theme.fontFamily.DEFAULT}"
   },
