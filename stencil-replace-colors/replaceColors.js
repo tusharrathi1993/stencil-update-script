@@ -118,13 +118,7 @@ function replaceStringInFiles(directoryPath, regexPattern) {
 }
 
 if (folderPath) {
-	const startTime = new Date();
-	console.log('>>>>>>>>>', startTime);
 	replaceStringInFiles(folderPath, regexPattern);
-	const endTime = new Date();
-	console.log('>>>>>>>>>', endTime);
-	console.log('--------------------------------------------------------------');
-	console.log('TimeTaken:', endTime - startTime);
 } else {
 	console.log(
 		'Folder path is empty. Please provide folder path where you want to replace the colors'
