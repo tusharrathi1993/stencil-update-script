@@ -198,7 +198,29 @@ const mappingColors = [
 	`WHITE|background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:|bgTokens.COLOR_BG_DEFAULT`,
 	`WHITE|border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:|borderTokens.COLOR_BORDER_TERTIARY`,
 	`WHITE|color:#color =|textTokens.COLOR_TEXT_INVERSE`,
-	`WHITE|---|iconTokens.COLOR_ICON_INVERSE`
+	`WHITE|---|iconTokens.COLOR_ICON_INVERSE`,
+	`"Open Sans", sans-serif'|fontFamily|theme.fontFamily.DEFAULT`,
+	`'Open Sans', sans-serif|fontFamily|theme.fontFamily.DEFAULT`,
+	`'Open Sans'|fontFamily|theme.fontFamily.DEFAULT`,
+	`Open Sans|fontFamily|theme.fontFamily.DEFAULT`,
+	`"Roboto"|fontFamily|theme.fontFamily.DEFAULT`,
+	`'Roboto'|fontFamily|theme.fontFamily.DEFAULT`,
+	`Roboto|fontFamily|theme.fontFamily.DEFAULT`,
+	`"Open Sans", sans-serif'|font-family#'"Open Sans", sans-serif'#"Open Sans"#'Open Sans'#Open Sans#"Roboto"#'Roboto'#Roboto|\${theme.fontFamily.DEFAULT}`,
+	`'Open Sans', sans-serif|font-family#'"Open Sans", sans-serif'#"Open Sans"#'Open Sans'#Open Sans#"Roboto"#'Roboto'#Roboto|\${theme.fontFamily.DEFAULT}`,
+	`'Open Sans'|font-family#'"Open Sans", sans-serif'#"Open Sans"#'Open Sans'#Open Sans#"Roboto"#'Roboto'#Roboto|\${theme.fontFamily.DEFAULT}`,
+	`"Roboto"|font-family#'"Open Sans", sans-serif'#"Open Sans"#'Open Sans'#Open Sans#"Roboto"#'Roboto'#Roboto|\${theme.fontFamily.DEFAULT}`,
+	`'Roboto'|font-family#'"Open Sans", sans-serif'#"Open Sans"#'Open Sans'#Open Sans#"Roboto"#'Roboto'#Roboto|\${theme.fontFamily.DEFAULT}`,
+	`Roboto|font-family#'"Open Sans", sans-serif'#"Open Sans"#'Open Sans'#Open Sans#"Roboto"#'Roboto'#Roboto|\${theme.fontFamily.DEFAULT}`,
+	`theme.fontFamily.H1|theme.fontFamily.H1|theme.fontFamily.DEFAULT`,
+	`theme.fontFamily.H2|theme.fontFamily.H2|theme.fontFamily.DEFAULT`,
+	`theme.fontFamily.H3|theme.fontFamily.H3|theme.fontFamily.DEFAULT`,
+	`theme.fontFamily.TEXT|theme.fontFamily.TEXT|theme.fontFamily.DEFAULT`,
+	`theme.fontFamily.SMALLTEXT|theme.fontFamily.SMALLTEXT|theme.fontFamily.DEFAULT`,
+	`theme.fontFamily.LABEL|theme.fontFamily.LABEL|theme.fontFamily.DEFAULT`,
+	`theme.fontFamily.BIG_NUM|theme.fontFamily.BIG_NUM|theme.fontFamily.DEFAULT`,
+	`theme.fontFamily.MEDIUM_NUM|theme.fontFamily.MEDIUM_NUM|theme.fontFamily.DEFAULT`,
+	`theme.fontFamily.SMALL_NUM|theme.fontFamily.SMALL_NUM|theme.fontFamily.DEFAULT`
 ];
 
 const obj = mappingColors.map((o) => {

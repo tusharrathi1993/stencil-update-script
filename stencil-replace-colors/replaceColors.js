@@ -29,24 +29,27 @@ function findLineWithText(filePath, findText, stringToReplace, newString) {
 
 	const lines = data.split('\n');
 	const pattern = findText.split('#').join('|');
-	const findPattern = new RegExp('(' + pattern + ')');
+	const findPattern = new RegExp(`(${pattern})`);
 
 	let changesDone = false;
+	const isFontFamilyReplace = newString.includes('fontFamily');
 	lines.forEach((line, index) => {
 		if (findPattern.test(line)) {
 			const lineNumber = index + 1;
 			if (lineNumber > 0 && lineNumber <= lines.length) {
 				const lineToReplace = lines[lineNumber - 1];
-				const regEx = new RegExp(
-					`theme.colors.${stringToReplace}|colors.${stringToReplace}`,
-					'g'
-				);
+				const regToReplace = isFontFamilyReplace
+					? stringToReplace
+					: `theme.colors.${stringToReplace}|colors.${stringToReplace}`;
+
+				const regEx = new RegExp(regToReplace, 'g');
 
 				if (regEx.test(line)) {
-					const replacedLine = lineToReplace.replace(
-						regEx,
-						`tokens.${newString}`
-					);
+					const replaceText = isFontFamilyReplace
+						? newString
+						: `tokens.${newString}`;
+
+					const replacedLine = lineToReplace.replace(regEx, replaceText);
 					lines[lineNumber - 1] = replacedLine;
 					changesDone = true;
 				}

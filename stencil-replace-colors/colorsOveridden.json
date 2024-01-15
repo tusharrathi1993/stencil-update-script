@@ -983,5 +983,115 @@
     "themeName": "WHITE",
     "findText": "---",
     "tokenName": "iconTokens.COLOR_ICON_INVERSE"
+  },
+  {
+    "themeName": "\"Open Sans\", sans-serif'",
+    "findText": "fontFamily",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "'Open Sans', sans-serif",
+    "findText": "fontFamily",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "'Open Sans'",
+    "findText": "fontFamily",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "Open Sans",
+    "findText": "fontFamily",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "\"Roboto\"",
+    "findText": "fontFamily",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "'Roboto'",
+    "findText": "fontFamily",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "Roboto",
+    "findText": "fontFamily",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "\"Open Sans\", sans-serif'",
+    "findText": "font-family#'\"Open Sans\", sans-serif'#\"Open Sans\"#'Open Sans'#Open Sans#\"Roboto\"#'Roboto'#Roboto",
+    "tokenName": "${theme.fontFamily.DEFAULT}"
+  },
+  {
+    "themeName": "'Open Sans', sans-serif",
+    "findText": "font-family#'\"Open Sans\", sans-serif'#\"Open Sans\"#'Open Sans'#Open Sans#\"Roboto\"#'Roboto'#Roboto",
+    "tokenName": "${theme.fontFamily.DEFAULT}"
+  },
+  {
+    "themeName": "'Open Sans'",
+    "findText": "font-family#'\"Open Sans\", sans-serif'#\"Open Sans\"#'Open Sans'#Open Sans#\"Roboto\"#'Roboto'#Roboto",
+    "tokenName": "${theme.fontFamily.DEFAULT}"
+  },
+  {
+    "themeName": "\"Roboto\"",
+    "findText": "font-family#'\"Open Sans\", sans-serif'#\"Open Sans\"#'Open Sans'#Open Sans#\"Roboto\"#'Roboto'#Roboto",
+    "tokenName": "${theme.fontFamily.DEFAULT}"
+  },
+  {
+    "themeName": "'Roboto'",
+    "findText": "font-family#'\"Open Sans\", sans-serif'#\"Open Sans\"#'Open Sans'#Open Sans#\"Roboto\"#'Roboto'#Roboto",
+    "tokenName": "${theme.fontFamily.DEFAULT}"
+  },
+  {
+    "themeName": "Roboto",
+    "findText": "font-family#'\"Open Sans\", sans-serif'#\"Open Sans\"#'Open Sans'#Open Sans#\"Roboto\"#'Roboto'#Roboto",
+    "tokenName": "${theme.fontFamily.DEFAULT}"
+  },
+  {
+    "themeName": "theme.fontFamily.H1",
+    "findText": "theme.fontFamily.H1",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "theme.fontFamily.H2",
+    "findText": "theme.fontFamily.H2",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "theme.fontFamily.H3",
+    "findText": "theme.fontFamily.H3",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "theme.fontFamily.TEXT",
+    "findText": "theme.fontFamily.TEXT",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "theme.fontFamily.SMALLTEXT",
+    "findText": "theme.fontFamily.SMALLTEXT",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "theme.fontFamily.LABEL",
+    "findText": "theme.fontFamily.LABEL",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "theme.fontFamily.BIG_NUM",
+    "findText": "theme.fontFamily.BIG_NUM",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "theme.fontFamily.MEDIUM_NUM",
+    "findText": "theme.fontFamily.MEDIUM_NUM",
+    "tokenName": "theme.fontFamily.DEFAULT"
+  },
+  {
+    "themeName": "theme.fontFamily.SMALL_NUM",
+    "findText": "theme.fontFamily.SMALL_NUM",
+    "tokenName": "theme.fontFamily.DEFAULT"
   }
 ]
