@@ -381,12 +381,12 @@
   },
   {
     "themeName": "INDIGO",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "---",
     "tokenName": "moduleTokens.COLOR_MODULE_HUB"
   },
   {
     "themeName": "INDIGO",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "---",
     "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
   },
   {
@@ -937,7 +937,7 @@
   {
     "themeName": "TROPICAL_BLUE",
     "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
-    "tokenName": "bgTokens.COLOR_BG_SELECTED"
+    "tokenName": "bgTokens.COLOR_BG_ACCENT_SELECTED"
   },
   {
     "themeName": "TROPICAL_BLUE",

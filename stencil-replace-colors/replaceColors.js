@@ -40,7 +40,7 @@ function findLineWithText(filePath, findText, stringToReplace, newString) {
 				const lineToReplace = lines[lineNumber - 1];
 				const regToReplace = isFontFamilyReplace
 					? stringToReplace
-					: `theme.colors.${stringToReplace}|colors.${stringToReplace}`;
+					: `theme.colors.${stringToReplace}|themes.colors.${stringToReplace}|colors.${stringToReplace}`;
 
 				const regEx = new RegExp(regToReplace, 'g');
 
