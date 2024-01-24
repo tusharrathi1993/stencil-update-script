@@ -82,7 +82,7 @@ const mappingColors = [
 	`INDIGO|---|moduleTokens.COLOR_MODULE_SERIES`,
 	`IVORY|background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:|bgTokens.COLOR_BG_SECONDARY`,
 	`IVORY|border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:|borderTokens.COLOR_BORDER_TERTIARY`,
-	`JODHPUR|---|buttonTokens.COLOR_BUTTON_ACCENT_HOVER`,
+	`JODHPUR|border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#color:#color =|buttonTokens.COLOR_BUTTON_ACCENT_HOVER`,
 	`JORDY_BLUE|background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:|moduleTokens.COLOR_MODULE_ILT`,
 	`KOROMIKO|background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:|bgTokens.COLOR_BG_WARNING_STRONG`,
 	`KOROMIKO|color:#color =|textTokens.COLOR_TEXT_WARNING`,
