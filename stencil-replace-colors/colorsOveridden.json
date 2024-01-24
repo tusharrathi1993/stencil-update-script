@@ -922,17 +922,17 @@
   {
     "themeName": "TRANSPARENT",
     "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor:",
-    "tokenName": "transparent"
+    "tokenName": "bgTokens.COLOR_BG_TRANSPARENT"
   },
   {
     "themeName": "TRANSPARENT",
     "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
-    "tokenName": "transparent"
+    "tokenName": "bgTokens.COLOR_BG_TRANSPARENT"
   },
   {
     "themeName": "TRANSPARENT",
     "findText": "color:#color =",
-    "tokenName": "transparent"
+    "tokenName": "bgTokens.COLOR_BG_TRANSPARENT"
   },
   {
     "themeName": "TROPICAL_BLUE",
