@@ -24,7 +24,7 @@ const excludePattern = new RegExp(
 	'lib|package.json|.*.md|messages.*|.*.css$|.*.scss$|.*.svg$|yarn.lock|package-lock.json|.*.d.ts$|.*.test.js$|.*.test.ts$|.*.json$|.*.sh$|.*.env$|.*.graphql$'
 );
 const hexColorRegex = new RegExp(
-	`\\b#(?:[0-9a-fA-F]{3}){1,2}\\b|#\\b(?:[0-9a-fA-F]{6})\\b`,
+	`\\b#(?:[0-9a-fA-F]{3}){1,2}\\b|#\\b(?:[0-9a-fA-F]{6})\\b|rgba?\\(\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,\\s*(\\d+)\\s*(?:,\\s*(?:0|1|0?\\.\\d+))?\\s*\\)`,
 	'g'
 );
 
