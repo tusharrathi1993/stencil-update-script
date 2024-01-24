@@ -51,7 +51,7 @@
   },
   {
     "themeName": "BILOBA_FLOWER",
-    "findText": "MEDIA_TYPE",
+    "findText": "---",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_IMAGE"
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "themeName": "BROMET",
-    "findText": "MEDIA_TYPE",
+    "findText": "---",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_FEEDBACK"
   },
   {
@@ -131,12 +131,12 @@
   },
   {
     "themeName": "BURNT_SIENNA",
-    "findText": "MEDIA_TYPE",
+    "findText": "---",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_PDF"
   },
   {
     "themeName": "CADILLAC_PINK",
-    "findText": "MEDIA_TYPE",
+    "findText": "---",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_SCORM"
   },
   {
@@ -156,7 +156,7 @@
   },
   {
     "themeName": "COACHING",
-    "findText": "MEDIA_TYPE",
+    "findText": "---",
     "tokenName": "moduleTokens.COLOR_MODULE_COACHING"
   },
   {
@@ -196,7 +196,7 @@
   },
   {
     "themeName": "DANUBE",
-    "findText": "MEDIA_TYPE",
+    "findText": "---",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_LINK"
   },
   {
@@ -286,7 +286,7 @@
   },
   {
     "themeName": "FEIJOA",
-    "findText": "MEDIA_TYPE",
+    "findText": "---",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_XLS"
   },
   {
@@ -306,7 +306,7 @@
   },
   {
     "themeName": "FROLY",
-    "findText": "MEDIA_TYPE",
+    "findText": "---",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_VIDEO"
   },
   {
@@ -346,7 +346,7 @@
   },
   {
     "themeName": "ICON",
-    "findText": "color:#MEDIA_TYPE",
+    "findText": "color:#color =",
     "tokenName": "iconTokens.COLOR_ICON_DEFAULT"
   },
   {
@@ -761,7 +761,7 @@
   },
   {
     "themeName": "RONCHI",
-    "findText": "MEDIA_TYPE",
+    "findText": "---",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_AUDIO"
   },
   {
@@ -776,7 +776,7 @@
   },
   {
     "themeName": "SANDY_BROWN",
-    "findText": "MEDIA_TYPE",
+    "findText": "---",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_PPT"
   },
   {
@@ -791,7 +791,7 @@
   },
   {
     "themeName": "SEAGULL",
-    "findText": "MEDIA_TYPE",
+    "findText": "---",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_DOC"
   },
   {
