@@ -3,31 +3,31 @@
     "componentName": "@mindtickle/tag",
     "findText": "@mindtickle/tag",
     "replaceName": "@mindtickle/pill",
-    "isSpecific": ""
+    "isSpecific": "TRUE"
   },
   {
     "componentName": "@mindtickle/tag-input",
     "findText": "@mindtickle/tag-input",
     "replaceName": "@mindtickle/input-pill",
-    "isSpecific": ""
+    "isSpecific": "TRUE"
   },
   {
     "componentName": "@mindtickle/tag-input-with-suggestions",
     "findText": "@mindtickle/tag-input-with-suggestions",
     "replaceName": "@mindtickle/input-pill-with-auto-suggestions",
-    "isSpecific": ""
+    "isSpecific": "TRUE"
   },
   {
     "componentName": "@mindtickle/tags-by-category",
     "findText": "@mindtickle/tags-by-category",
     "replaceName": "@mindtickle/pills-by-category",
-    "isSpecific": ""
+    "isSpecific": "TRUE"
   },
   {
     "componentName": "@mindtickle/token",
     "findText": "@mindtickle/token",
     "replaceName": "@mindtickle/badge",
-    "isSpecific": ""
+    "isSpecific": "TRUE"
   },
   {
     "componentName": "Tag",
