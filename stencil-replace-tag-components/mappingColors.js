@@ -2,11 +2,11 @@
 const fs = require('fs');
 
 const mappingColors = [
-	`@mindtickle/tag|@mindtickle/tag|@mindtickle/pill|TRUE`,
-	`@mindtickle/tag-input|@mindtickle/tag-input|@mindtickle/input-pill|TRUE`,
-	`@mindtickle/tag-input-with-suggestions|@mindtickle/tag-input-with-suggestions|@mindtickle/input-pill-with-auto-suggestions|TRUE`,
-	`@mindtickle/tags-by-category|@mindtickle/tags-by-category|@mindtickle/pills-by-category|TRUE`,
-	`@mindtickle/token|@mindtickle/token|@mindtickle/badge|TRUE`,
+	`@mindtickle/tag-input-with-suggestions|@mindtickle/tag-input-with-suggestions|@mindtickle/input-pill-with-auto-suggestions`,
+	`@mindtickle/tags-by-category|@mindtickle/tags-by-category|@mindtickle/pills-by-category`,
+	`@mindtickle/tag-input|@mindtickle/tag-input|@mindtickle/input-pill`,
+	`@mindtickle/tag|@mindtickle/tag|@mindtickle/pill`,
+	`@mindtickle/token|@mindtickle/token|@mindtickle/badge`,
 	`Tag|import Tag|Pill|`,
 	`TagsByCategory|import TagsByCategory|PillsByCategory|`,
 	`Token, {|import Token, {|{ BadgeWithStatus,|`,
