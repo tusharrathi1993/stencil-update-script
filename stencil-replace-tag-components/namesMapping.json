@@ -1,33 +1,28 @@
 [
   {
-    "componentName": "@mindtickle/tag",
-    "findText": "@mindtickle/tag",
-    "replaceName": "@mindtickle/pill",
-    "isSpecific": "TRUE"
-  },
-  {
-    "componentName": "@mindtickle/tag-input",
-    "findText": "@mindtickle/tag-input",
-    "replaceName": "@mindtickle/input-pill",
-    "isSpecific": "TRUE"
-  },
-  {
     "componentName": "@mindtickle/tag-input-with-suggestions",
     "findText": "@mindtickle/tag-input-with-suggestions",
-    "replaceName": "@mindtickle/input-pill-with-auto-suggestions",
-    "isSpecific": "TRUE"
+    "replaceName": "@mindtickle/input-pill-with-auto-suggestions"
   },
   {
     "componentName": "@mindtickle/tags-by-category",
     "findText": "@mindtickle/tags-by-category",
-    "replaceName": "@mindtickle/pills-by-category",
-    "isSpecific": "TRUE"
+    "replaceName": "@mindtickle/pills-by-category"
+  },
+  {
+    "componentName": "@mindtickle/tag-input",
+    "findText": "@mindtickle/tag-input",
+    "replaceName": "@mindtickle/input-pill"
+  },
+  {
+    "componentName": "@mindtickle/tag",
+    "findText": "@mindtickle/tag",
+    "replaceName": "@mindtickle/pill"
   },
   {
     "componentName": "@mindtickle/token",
     "findText": "@mindtickle/token",
-    "replaceName": "@mindtickle/badge",
-    "isSpecific": "TRUE"
+    "replaceName": "@mindtickle/badge"
   },
   {
     "componentName": "Tag",
