@@ -6,12 +6,12 @@
   },
   {
     "themeName": "ALTO",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_DEFAULT"
   },
   {
     "themeName": "ALTO",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_DISABLED"
   },
   {
@@ -31,22 +31,22 @@
   },
   {
     "themeName": "ANZAC",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_ASSESSMENT"
   },
   {
     "themeName": "ASSESSMENT",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_ASSESSMENT"
   },
   {
     "themeName": "ATHENSGRAY",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "chartTokens.COLOR_CHART_ALTO"
   },
   {
     "themeName": "BALI_HAI",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_MISSION"
   },
   {
@@ -56,12 +56,12 @@
   },
   {
     "themeName": "BITTERSWEET",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_DANGER_STRONG"
   },
   {
     "themeName": "BITTERSWEET",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_DANGER"
   },
   {
@@ -86,12 +86,12 @@
   },
   {
     "themeName": "BLACK",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "iconTokens.COLOR_ICON_STRONG"
   },
   {
     "themeName": "BLACK",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "iconTokens.COLOR_ICON_STRONG"
   },
   {
@@ -151,7 +151,7 @@
   },
   {
     "themeName": "CHECKLIST",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_CHECKLIST"
   },
   {
@@ -161,7 +161,7 @@
   },
   {
     "themeName": "COACHING",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_QUEST"
   },
   {
@@ -171,17 +171,17 @@
   },
   {
     "themeName": "COURSE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_COURSE"
   },
   {
     "themeName": "DANUBE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_ACCENT"
   },
   {
     "themeName": "DANUBE",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
   },
   {
@@ -206,12 +206,12 @@
   },
   {
     "themeName": "DANUBE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_HUB"
   },
   {
     "themeName": "DANUBE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
   },
   {
@@ -231,12 +231,12 @@
   },
   {
     "themeName": "DARK_OUTER_SPACE",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "DARK_OUTER_SPACE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_STRONG"
   },
   {
@@ -246,17 +246,17 @@
   },
   {
     "themeName": "DEEP_CHAMPAGNE",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_BRAND"
   },
   {
     "themeName": "DISABLE",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "DISABLE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_DISABLED"
   },
   {
@@ -281,7 +281,7 @@
   },
   {
     "themeName": "EMERALD",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_COURSE"
   },
   {
@@ -291,12 +291,12 @@
   },
   {
     "themeName": "FOUNTAIN_BLUE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_COACHING"
   },
   {
     "themeName": "FOUNTAIN_BLUE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_QUEST"
   },
   {
@@ -316,12 +316,12 @@
   },
   {
     "themeName": "GREY",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "GREY",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_STRONG"
   },
   {
@@ -331,17 +331,17 @@
   },
   {
     "themeName": "HUNTER_GREEN",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "chartTokens.COLOR_CHART_HUNTER"
   },
   {
     "themeName": "ICON",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "ICON",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_STRONG"
   },
   {
@@ -351,12 +351,12 @@
   },
   {
     "themeName": "INDIGO",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_ACCENT"
   },
   {
     "themeName": "INDIGO",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
   },
   {
@@ -391,12 +391,12 @@
   },
   {
     "themeName": "IVORY",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_SECONDARY"
   },
   {
     "themeName": "IVORY",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
   },
   {
@@ -406,12 +406,12 @@
   },
   {
     "themeName": "JORDY_BLUE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_ILT"
   },
   {
     "themeName": "KOROMIKO",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
   },
   {
@@ -431,17 +431,17 @@
   },
   {
     "themeName": "LIGHT_BLUE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_SELECTED"
   },
   {
     "themeName": "LIGHT_GREY",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_DEFAULT"
   },
   {
     "themeName": "LIGHT_GREY",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
   },
   {
@@ -456,7 +456,7 @@
   },
   {
     "themeName": "LIGHT_ORANGE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_WARNING"
   },
   {
@@ -466,7 +466,7 @@
   },
   {
     "themeName": "MACRONI_CHEESE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
   },
   {
@@ -486,7 +486,7 @@
   },
   {
     "themeName": "MAGGIE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
   },
   {
@@ -506,12 +506,12 @@
   },
   {
     "themeName": "MANATEE",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "iconTokens.COLOR_ICON_INVERSE_TERTIARY"
   },
   {
     "themeName": "MANATEE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "iconTokens.COLOR_ICON_INVERSE_TERTIARY"
   },
   {
@@ -531,22 +531,22 @@
   },
   {
     "themeName": "MISSION",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_MISSION"
   },
   {
     "themeName": "NEPTUNE",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "buttonTokens.COLOR_BUTTON_ACCENT_ACTIVE"
   },
   {
     "themeName": "NEPTUNE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "buttonTokens.COLOR_BUTTON_ACCENT_ACTIVE"
   },
   {
     "themeName": "OASIS",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_WARNING"
   },
   {
@@ -556,12 +556,12 @@
   },
   {
     "themeName": "OCEAN",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_ACCENT"
   },
   {
     "themeName": "OCEAN",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
   },
   {
@@ -586,22 +586,22 @@
   },
   {
     "themeName": "OCEAN",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_HUB"
   },
   {
     "themeName": "OCEAN",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
   },
   {
     "themeName": "OUTER_SPACE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_STRONG"
   },
   {
     "themeName": "OUTER_SPACE",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
@@ -621,7 +621,7 @@
   },
   {
     "themeName": "PALE_BLUE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_ACCENT_SELECTED"
   },
   {
@@ -631,7 +631,7 @@
   },
   {
     "themeName": "PALE_GREEN",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "filetypeTokens.COLOR_FILETYPE_QUESTION"
   },
   {
@@ -641,12 +641,12 @@
   },
   {
     "themeName": "PASTEL_GREEN",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_SUCCESS_STRONG"
   },
   {
     "themeName": "PASTEL_GREEN",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_SUCCESS"
   },
   {
@@ -671,17 +671,17 @@
   },
   {
     "themeName": "PEACH_CREAM",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "chartTokens.COLOR_CHART_SALMON_SUBTLE"
   },
   {
     "themeName": "PEACH_CREAM",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "chartTokens.COLOR_CHART_SALMON_SUBTLE"
   },
   {
     "themeName": "PEACH_ORANGE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
   },
   {
@@ -706,22 +706,22 @@
   },
   {
     "themeName": "PEARL",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_SECONDARY"
   },
   {
     "themeName": "PICKLED_BLUEWOOD",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_INVERSE_TERTIARY"
   },
   {
     "themeName": "PICO_IVORY",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_BRAND"
   },
   {
     "themeName": "PIPPIN",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_DANGER"
   },
   {
@@ -731,27 +731,27 @@
   },
   {
     "themeName": "PORCELAIN",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_TERTIARY"
   },
   {
     "themeName": "PORCELAIN",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
   },
   {
     "themeName": "Q_UPDATE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_QUICKUPDATE"
   },
   {
     "themeName": "QUEST",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_COACHING"
   },
   {
     "themeName": "QUEST",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_QUEST"
   },
   {
@@ -771,7 +771,7 @@
   },
   {
     "themeName": "SALMON",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "chartTokens.COLOR_CHART_SALMON"
   },
   {
@@ -781,7 +781,7 @@
   },
   {
     "themeName": "SAZERAC",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_WARNING"
   },
   {
@@ -796,7 +796,7 @@
   },
   {
     "themeName": "SHARK",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
@@ -806,17 +806,17 @@
   },
   {
     "themeName": "SHARK",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_INVERSE_SECONDARY"
   },
   {
     "themeName": "SILVER",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_STRONG"
   },
   {
     "themeName": "SILVER",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_DISABLED"
   },
   {
@@ -831,12 +831,12 @@
   },
   {
     "themeName": "SKY",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_ACCENT"
   },
   {
     "themeName": "SKY",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_ACCENT"
   },
   {
@@ -861,22 +861,22 @@
   },
   {
     "themeName": "SKY",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_HUB"
   },
   {
     "themeName": "SKY",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_SERIES"
   },
   {
     "themeName": "SNOWWHITE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_DEFAULT"
   },
   {
     "themeName": "SNOWWHITE",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
   },
   {
@@ -891,7 +891,7 @@
   },
   {
     "themeName": "SUNGLO",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "moduleTokens.COLOR_MODULE_QUICKUPDATE"
   },
   {
@@ -906,12 +906,12 @@
   },
   {
     "themeName": "TARA",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "bgTokens.COLOR_BG_SUCCESS"
   },
   {
     "themeName": "TARA",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_SUCCESS"
   },
   {
@@ -926,7 +926,7 @@
   },
   {
     "themeName": "TRANSPARENT",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_TRANSPARENT"
   },
   {
@@ -936,17 +936,17 @@
   },
   {
     "themeName": "TROPICAL_BLUE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_ACCENT_SELECTED"
   },
   {
     "themeName": "TROPICAL_BLUE",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "bgTokens.COLOR_BG_ACCENT_SELECTED"
   },
   {
     "themeName": "WARNING",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_WARNING_STRONG"
   },
   {
@@ -966,12 +966,12 @@
   },
   {
     "themeName": "WHITE",
-    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:",
+    "findText": "background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor",
     "tokenName": "bgTokens.COLOR_BG_DEFAULT"
   },
   {
     "themeName": "WHITE",
-    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:",
+    "findText": "border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor",
     "tokenName": "borderTokens.COLOR_BORDER_TERTIARY"
   },
   {
