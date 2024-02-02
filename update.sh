@@ -6,14 +6,14 @@ RED=$(tput setaf 1)
 YELLOW=$(tput setaf 3)
 NC=$(tput sgr0)
 
-clientFromArg=$1
+clientToUse=$1
 
 # Function to execute before exit
 cleanup_before_exit() {
     # Add your command(s) here
     echo "${GREEN}✨ Executing cleanup before exit... ✨${NC}"
     # command_to_run_before_exit
-    rm -rf mtDep.json pk.json update.sh stencil-update-script
+    # rm -rf mtDep.json pk.json update.sh stencil-update-script
 }
 
 trap cleanup_before_exit EXIT
@@ -24,18 +24,21 @@ then
    brew install jq
 fi
 
-echo "${GREEN}🚀 Select a client to update packages: 🚀${NC}"
-echo "${YELLOW}🔵 npm"
-echo "${YELLOW}🟢 yarn"
-echo "${YELLOW}🔴 pnp"
-read -p "Enter your client to install packages: " clientToUse
 
-if [[ $clientToUse != "yarn" && $clientToUse != "npm" && $clientToUse != "pnp" && $clientFromArg != "yarn" && $clientFromArg != "npm" && $clientFromArg != "pnp" ]]; then
+if [[ $clientToUse != "yarn" && $clientToUse != "npm" && $clientToUse != "pnp" ]]; then
+    echo "${GREEN}🚀 Select a client to update packages: 🚀${NC}"
+    echo "${YELLOW}🔵 npm"
+    echo "${YELLOW}🟢 yarn"
+    echo "${YELLOW}🔴 pnp"
+    read -p "Enter your client to install packages: " clientToUse
+fi
+
+if [[ $clientToUse != "yarn" && $clientToUse != "npm" && $clientToUse != "pnp" ]]; then
   echo "${RED}⚠️ Please provide client to install... npm | yarn | pnp ⚠️${NC}"
   exit 0
 fi
 
-echo "Using ${clientToUse} ${clientFromArg} client"
+echo "Using ${clientToUse} client"
 
 dependencies=`jq '.dependencies' package.json`
 
