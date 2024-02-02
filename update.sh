@@ -6,6 +6,8 @@ RED=$(tput setaf 1)
 YELLOW=$(tput setaf 3)
 NC=$(tput sgr0)
 
+clientFromArg=$1
+
 # Function to execute before exit
 cleanup_before_exit() {
     # Add your command(s) here
@@ -28,12 +30,12 @@ echo "${YELLOW}🟢 yarn"
 echo "${YELLOW}🔴 pnp"
 read -p "Enter your client to install packages: " clientToUse
 
-if [[ $clientToUse != "yarn" && $clientToUse != "npm" && $clientToUse != "pnp" ]]; then
+if [[ $clientToUse != "yarn" && $clientToUse != "npm" && $clientToUse != "pnp" && $clientFromArg != "yarn" && $clientFromArg != "npm" && $clientFromArg != "pnp" ]]; then
   echo "${RED}⚠️ Please provide client to install... npm | yarn | pnp ⚠️${NC}"
   exit 0
 fi
 
-echo "Using ${clientToUse} client"
+echo "Using ${clientToUse} ${clientFromArg} client"
 
 dependencies=`jq '.dependencies' package.json`
 
