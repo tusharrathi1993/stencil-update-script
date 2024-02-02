@@ -2,32 +2,31 @@
   {
     "componentName": "@mindtickle/tag-input-with-suggestions",
     "findText": "@mindtickle/tag-input-with-suggestions",
-    "replaceName": "@mindtickle/input-pill-with-auto-suggestions"
+    "replaceName": "@mindtickle/input-pill-with-auto-suggestions",
+    "isSpecific": ""
   },
   {
     "componentName": "@mindtickle/tags-by-category",
     "findText": "@mindtickle/tags-by-category",
-    "replaceName": "@mindtickle/pills-by-category"
+    "replaceName": "@mindtickle/pills-by-category",
+    "isSpecific": ""
   },
   {
     "componentName": "@mindtickle/tag-input",
     "findText": "@mindtickle/tag-input",
-    "replaceName": "@mindtickle/input-pill"
-  },
-  {
-    "componentName": "@mindtickle/tag",
-    "findText": "@mindtickle/tag",
-    "replaceName": "@mindtickle/pill"
+    "replaceName": "@mindtickle/input-pill",
+    "isSpecific": ""
   },
   {
     "componentName": "@mindtickle/token",
     "findText": "@mindtickle/token",
-    "replaceName": "@mindtickle/badge"
+    "replaceName": "@mindtickle/badge",
+    "isSpecific": ""
   },
   {
-    "componentName": "Tag",
-    "findText": "import Tag",
-    "replaceName": "Pill",
+    "componentName": "@mindtickle/tag",
+    "findText": "@mindtickle/tag",
+    "replaceName": "@mindtickle/pill",
     "isSpecific": ""
   },
   {
@@ -49,6 +48,18 @@
     "isSpecific": ""
   },
   {
+    "componentName": "TagInputWithSuggestions",
+    "findText": "import TagInputWithSuggestions",
+    "replaceName": "InputPillWithAutoSuggestions",
+    "isSpecific": ""
+  },
+  {
+    "componentName": "TagInputWithSuggestions",
+    "findText": "TagInputWithSuggestions",
+    "replaceName": "InputPillWithAutoSuggestions",
+    "isSpecific": ""
+  },
+  {
     "componentName": "NormalTag",
     "findText": "import NormalTag",
     "replaceName": "Pill",
@@ -61,15 +72,9 @@
     "isSpecific": ""
   },
   {
-    "componentName": "TagInputWithSuggestions",
-    "findText": "import TagInputWithSuggestions",
-    "replaceName": "InputPillWithAutoSuggestions",
-    "isSpecific": ""
-  },
-  {
-    "componentName": "TagInputWithSuggestions",
-    "findText": "TagInputWithSuggestions",
-    "replaceName": "InputPillWithAutoSuggestions",
+    "componentName": "Tag",
+    "findText": "import Tag",
+    "replaceName": "Pill",
     "isSpecific": ""
   },
   {
