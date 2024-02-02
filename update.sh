@@ -135,7 +135,7 @@ do
       componentName=$(kebab_to_camel "$package")
       changeLogMapping+=("$package@$stencilVersion https://gitlab.com/mindtickle/design-library/-/blob/$package@$stencilVersion/packages/$componentName/CHANGELOG.md")
       echo "${YELLOW}-------------------------------------------------------${NC}"
-      MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${package}@^${stencilVersion}"
+      MODULE_TO_BE_INSTALL="${MODULE_TO_BE_INSTALL} ${package}@${stencilVersion}"
    else
       echo "${RED}🛑 DL Package with alpha version not found for $package.${NC}"
       echo "${YELLOW}-------------------------------------------------------${NC}"
