@@ -13,7 +13,7 @@ cleanup_before_exit() {
     # Add your command(s) here
     echo "${GREEN}✨ Executing cleanup before exit... ✨${NC}"
     # command_to_run_before_exit
-    rm -rf mtDep.json pk.json update.sh stencil-update-script
+    # rm -rf mtDep.json pk.json update.sh stencil-update-script
 }
 
 trap cleanup_before_exit EXIT
@@ -51,7 +51,7 @@ echo $deps > mtDep.json
 
 MODULE_LIST=$(sed -e 's/"//g' mtDep.json)
 
-# changeLogFileName="changeLog.md"
+changeLogFileName="changeLog.md"
 
 MODULE_TO_BE_INSTALL=""
 MODULE_TO_BE_REMOVED=""
@@ -182,16 +182,16 @@ fi
 
 # Print table headers
 echo ""
-print_horizontal_line >> "$changeLogFileName"
-print_table_headers >> "$changeLogFileName"
+print_horizontal_line
+print_table_headers
 
 # Loop through the data and print rows in the table
 for entry in "${changeLogMapping[@]}"; do
     read -r name link <<< "$entry"
-    print_table_data "$name" "$link" >> "$changeLogFileName"
+    print_table_data "$name" "$link"
 done
 
-print_horizontal_line >> "$changeLogFileName"
+print_horizontal_line
 
 echo ""
 echo "${GREEN}🎉 Congratulations! Successfully updated below DL packages to the latest stencil version.${NC}"
