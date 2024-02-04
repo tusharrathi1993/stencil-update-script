@@ -13,7 +13,7 @@ cleanup_before_exit() {
     # Add your command(s) here
     echo "${GREEN}✨ Executing cleanup before exit... ✨${NC}"
     # command_to_run_before_exit
-    # rm -rf mtDep.json pk.json update.sh stencil-update-script
+    rm -rf mtDep.json pk.json update.sh stencil-update-script
 }
 
 trap cleanup_before_exit EXIT
