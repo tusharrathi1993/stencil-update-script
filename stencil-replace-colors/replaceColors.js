@@ -15,7 +15,7 @@ const allHexColors = [];
 
 // Regex for skipping folders while executing this script
 const skipFoldersPattern = new RegExp(
-	'icon|lib|__tests__|__test__|images|__snapshots__|node_modules|dist|.git|types|assets|locales|.yarn|__generated__|graphql|stencil-update-script'
+	'icon|lib|__tests__|__test__|images|__snapshots__|node_modules|dist|.git|types|assets|locales|.yarn|__generated__|graphql|stencil-update-script|.eslintcache'
 );
 
 // const includeFoldersPattern = new RegExp('packages/');
