@@ -88,7 +88,7 @@ const mappingColors = [
 	`KOROMIKO|color:#color =|textTokens.COLOR_TEXT_WARNING`,
 	`KOROMIKO|---|iconTokens.COLOR_ICON_WARNING`,
 	`KOROMIKO|---|chartTokens.COLOR_CHART_KOROMIKO`,
-	`LIGHT_BLUE|background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor|bgTokens.COLOR_BG_SELECTED`,
+	`LIGHT_BLUE|background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor|bgTokens.COLOR_BG_ACCENT_SELECTED`,
 	`LIGHT_GREY|background:#background-color:#backgroundColor:#bgColor:#bgShade:#bg_color:#fill:#fillColor|bgTokens.COLOR_BG_DEFAULT`,
 	`LIGHT_GREY|border:#border-color:#border-top:#border-bottom:#border-left:#border-right:#borderColor#trailColor=#strokeColor=#borderTop:#borderBottom:#borderLeft:#borderRight:#outlineColor|borderTokens.COLOR_BORDER_TERTIARY`,
 	`LIGHT_GREY|color:#color =|textTokens.COLOR_TEXT_INVERSE`,
